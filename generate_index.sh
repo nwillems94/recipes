@@ -4,7 +4,7 @@ INDEX_FILE="index.html"
 declare -A letter_map
 
 # Collect recipe data
-for file in docs/*.md; do
+for file in $(ls ls _*/*.md | sort); do
   name="$(basename "$file" .md)"
   letter="${name:0:1}"
   letter_map["$letter"]=1
@@ -13,8 +13,9 @@ done
 # Start Jekyll-compatible HTML
 cat <<EOF > "$INDEX_FILE"
 ---
-layout: home
+layout: minimal
 title: Recipe Index
+nav_exclude: true
 ---
 
 <h1>Recipe Index</h1>
@@ -29,10 +30,11 @@ done
 
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
-for file in $(ls docs/*.md | sort); do
+for file in $(ls ls _*/*.md | sort); do
   name="$(basename "$file" .md)"
+  path="${file:1:-2}html"
   display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
-  echo " <li data-name="$name"><a href="docs/$name.html">$display_name</a></li>" >> "$INDEX_FILE"
+  echo " <li data-name="$name"><a href="$path">$display_name</a></li>" >> "$INDEX_FILE"
 done
 
 # JavaScript

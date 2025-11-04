@@ -33,17 +33,21 @@ collections:
 
 just_the_docs:
   collections:
-    tests:
-      name: Tests
     breads:
       name: Breads
+      nav_fold: true
     breakfast:
       name: Breakfast
+      nav_fold: true
     desserts:
       name: Desserts
+      nav_fold: true
     dinners:
       name: Dinners
+      nav_fold: true
     cocktails:
       name: Cocktails
+      nav_fold: true
     sauces:
       name: Sauces
+      nav_fold: true
