@@ -1,20 +1,134 @@
 ---
-layout: home
+layout: minimal
 title: Recipe Index
+nav_exclude: true
 ---
 
 <h1>Recipe Index</h1>
 <div class="filter-group" id="letterButtons">
-  <button class="letter-button" data-letter="_breads" onclick="filterByLetter('_breads')">_breads</button>
-  <button class="letter-button" data-letter="_breakfast" onclick="filterByLetter('_breakfast')">_breakfast</button>
-  <button class="letter-button" data-letter="_config.yml" onclick="filterByLetter('_config.yml')">_config.yml</button>
-  <button class="letter-button" data-letter="_desserts" onclick="filterByLetter('_desserts')">_desserts</button>
-  <button class="letter-button" data-letter="_dinners" onclick="filterByLetter('_dinners')">_dinners</button>
-  <button class="letter-button" data-letter="_layouts" onclick="filterByLetter('_layouts')">_layouts</button>
-  <button class="letter-button" data-letter="_sauces" onclick="filterByLetter('_sauces')">_sauces</button>
-  <button class="letter-button" data-letter="generate_index.sh" onclick="filterByLetter('generate_index.sh')">generate_index.sh</button>
-  <button class="letter-button" data-letter="index.html" onclick="filterByLetter('index.html')">index.html</button>
+  <button class="letter-button" data-letter="a" onclick="filterByLetter('a')">a</button>
+  <button class="letter-button" data-letter="b" onclick="filterByLetter('b')">b</button>
+  <button class="letter-button" data-letter="c" onclick="filterByLetter('c')">c</button>
+  <button class="letter-button" data-letter="d" onclick="filterByLetter('d')">d</button>
+  <button class="letter-button" data-letter="e" onclick="filterByLetter('e')">e</button>
+  <button class="letter-button" data-letter="f" onclick="filterByLetter('f')">f</button>
+  <button class="letter-button" data-letter="g" onclick="filterByLetter('g')">g</button>
+  <button class="letter-button" data-letter="h" onclick="filterByLetter('h')">h</button>
+  <button class="letter-button" data-letter="l" onclick="filterByLetter('l')">l</button>
+  <button class="letter-button" data-letter="m" onclick="filterByLetter('m')">m</button>
+  <button class="letter-button" data-letter="n" onclick="filterByLetter('n')">n</button>
+  <button class="letter-button" data-letter="o" onclick="filterByLetter('o')">o</button>
+  <button class="letter-button" data-letter="p" onclick="filterByLetter('p')">p</button>
+  <button class="letter-button" data-letter="r" onclick="filterByLetter('r')">r</button>
+  <button class="letter-button" data-letter="s" onclick="filterByLetter('s')">s</button>
+  <button class="letter-button" data-letter="t" onclick="filterByLetter('t')">t</button>
+  <button class="letter-button" data-letter="v" onclick="filterByLetter('v')">v</button>
+  <button class="letter-button" data-letter="w" onclick="filterByLetter('w')">w</button>
 </div><ul id="recipeList">
+ <li data-name=baguettes><a href=breads/baguettes.html>Baguettes</a></li>
+ <li data-name=biga-bread><a href=breads/biga-bread.html>Biga Bread</a></li>
+ <li data-name=bread-high-hydration><a href=breads/bread-high-hydration.html>Bread High Hydration</a></li>
+ <li data-name=bread-overnight-sourdough><a href=breads/bread-overnight-sourdough.html>Bread Overnight Sourdough</a></li>
+ <li data-name=bread-quick-sourdough><a href=breads/bread-quick-sourdough.html>Bread Quick Sourdough</a></li>
+ <li data-name=buns><a href=breads/buns.html>Buns</a></li>
+ <li data-name=english-muffins><a href=breads/english-muffins.html>English Muffins</a></li>
+ <li data-name=flatbread><a href=breads/flatbread.html>Flatbread</a></li>
+ <li data-name=flour-tortillas><a href=breads/flour-tortillas.html>Flour Tortillas</a></li>
+ <li data-name=naan><a href=breads/naan.html>Naan</a></li>
+ <li data-name=pizza-dough><a href=breads/pizza-dough.html>Pizza Dough</a></li>
+ <li data-name=prosciutto-bread><a href=breads/prosciutto-bread.html>Prosciutto Bread</a></li>
+ <li data-name=raisin-bread><a href=breads/raisin-bread.html>Raisin Bread</a></li>
+ <li data-name=roti><a href=breads/roti.html>Roti</a></li>
+ <li data-name=rustic-bread><a href=breads/rustic-bread.html>Rustic Bread</a></li>
+ <li data-name=sheetpan-pizza><a href=breads/sheetpan-pizza.html>Sheetpan Pizza</a></li>
+ <li data-name=sourdough-focaccia><a href=breads/sourdough-focaccia.html>Sourdough Focaccia</a></li>
+ <li data-name=banoffee-breakfast><a href=breakfast/banoffee-breakfast.html>Banoffee Breakfast</a></li>
+ <li data-name=pannekoeken><a href=breakfast/pannekoeken.html>Pannekoeken</a></li>
+ <li data-name=smoked-salmon-dutch-baby><a href=breakfast/smoked-salmon-dutch-baby.html>Smoked Salmon Dutch Baby</a></li>
+ <li data-name=sourdough-waffles><a href=breakfast/sourdough-waffles.html>Sourdough Waffles</a></li>
+ <li data-name=advokaat><a href=desserts/advokaat.html>Advokaat</a></li>
+ <li data-name=avocado-pudding><a href=desserts/avocado-pudding.html>Avocado Pudding</a></li>
+ <li data-name=blueberry-cobbler><a href=desserts/blueberry-cobbler.html>Blueberry Cobbler</a></li>
+ <li data-name=brown-butter-cookies><a href=desserts/brown-butter-cookies.html>Brown Butter Cookies</a></li>
+ <li data-name=carrot-cake><a href=desserts/carrot-cake.html>Carrot Cake</a></li>
+ <li data-name=chocolate-chip-cookies><a href=desserts/chocolate-chip-cookies.html>Chocolate Chip Cookies</a></li>
+ <li data-name=cinnamon-sugar-bread><a href=desserts/cinnamon-sugar-bread.html>Cinnamon Sugar Bread</a></li>
+ <li data-name=cinnamon-sugar-roasted-almonds><a href=desserts/cinnamon-sugar-roasted-almonds.html>Cinnamon Sugar Roasted Almonds</a></li>
+ <li data-name=frozen-banana-whip><a href=desserts/frozen-banana-whip.html>Frozen Banana Whip</a></li>
+ <li data-name=horchata><a href=desserts/horchata.html>Horchata</a></li>
+ <li data-name=lemon-bars-with-pistachio-crust><a href=desserts/lemon-bars-with-pistachio-crust.html>Lemon Bars With Pistachio Crust</a></li>
+ <li data-name=lemon-posset><a href=desserts/lemon-posset.html>Lemon Posset</a></li>
+ <li data-name=pumpkin-cheesecake-roll><a href=desserts/pumpkin-cheesecake-roll.html>Pumpkin Cheesecake Roll</a></li>
+ <li data-name=sweet-potato-brownies><a href=desserts/sweet-potato-brownies.html>Sweet Potato Brownies</a></li>
+ <li data-name=aloo-gobi><a href=dinners/aloo-gobi.html>Aloo Gobi</a></li>
+ <li data-name=anyday-salmon-bowl><a href=dinners/anyday-salmon-bowl.html>Anyday Salmon Bowl</a></li>
+ <li data-name=arugula-and-lemon-chicken-risotto><a href=dinners/arugula-and-lemon-chicken-risotto.html>Arugula And Lemon Chicken Risotto</a></li>
+ <li data-name=avocado-egg-salad><a href=dinners/avocado-egg-salad.html>Avocado Egg Salad</a></li>
+ <li data-name=avocado-tuna-salad><a href=dinners/avocado-tuna-salad.html>Avocado Tuna Salad</a></li>
+ <li data-name=baked-chicken><a href=dinners/baked-chicken.html>Baked Chicken</a></li>
+ <li data-name=baked-feta-pasta><a href=dinners/baked-feta-pasta.html>Baked Feta Pasta</a></li>
+ <li data-name=baked-orzo><a href=dinners/baked-orzo.html>Baked Orzo</a></li>
+ <li data-name=balsamic-chicken-slow-cooker><a href=dinners/balsamic-chicken-slow-cooker.html>Balsamic Chicken Slow Cooker</a></li>
+ <li data-name=black-bean-burgers><a href=dinners/black-bean-burgers.html>Black Bean Burgers</a></li>
+ <li data-name=black-bean-soup-gf><a href=dinners/black-bean-soup-gf.html>Black Bean Soup Gf</a></li>
+ <li data-name=boiled-chicken><a href=dinners/boiled-chicken.html>Boiled Chicken</a></li>
+ <li data-name=braised-short-ribs><a href=dinners/braised-short-ribs.html>Braised Short Ribs</a></li>
+ <li data-name=carnitas><a href=dinners/carnitas.html>Carnitas</a></li>
+ <li data-name=cheesy-green-chile-and-avocado-rice-quesadillas><a href=dinners/cheesy-green-chile-and-avocado-rice-quesadillas.html>Cheesy Green Chile And Avocado Rice Quesadillas</a></li>
+ <li data-name=chicken-wings><a href=dinners/chicken-wings.html>Chicken Wings</a></li>
+ <li data-name=chicken-with-rosemary-sauce><a href=dinners/chicken-with-rosemary-sauce.html>Chicken With Rosemary Sauce</a></li>
+ <li data-name=chicken-with-sundried-tomato-sauce><a href=dinners/chicken-with-sundried-tomato-sauce.html>Chicken With Sundried Tomato Sauce</a></li>
+ <li data-name=cold-noodles><a href=dinners/cold-noodles.html>Cold Noodles</a></li>
+ <li data-name=crispy-feta-with-lemon-pepper-chicken-and-rice><a href=dinners/crispy-feta-with-lemon-pepper-chicken-and-rice.html>Crispy Feta With Lemon Pepper Chicken And Rice</a></li>
+ <li data-name=cóctel-de-camarón><a href=dinners/cóctel-de-camarón.html>CóCtel De CamaróN</a></li>
+ <li data-name=doro-wat><a href=dinners/doro-wat.html>Doro Wat</a></li>
+ <li data-name=easy-scalloped-potatoes><a href=dinners/easy-scalloped-potatoes.html>Easy Scalloped Potatoes</a></li>
+ <li data-name=egg-rolls><a href=dinners/egg-rolls.html>Egg Rolls</a></li>
+ <li data-name=falafel><a href=dinners/falafel.html>Falafel</a></li>
+ <li data-name=fall-harvest-salad><a href=dinners/fall-harvest-salad.html>Fall Harvest Salad</a></li>
+ <li data-name=garlic-confit-pasta><a href=dinners/garlic-confit-pasta.html>Garlic Confit Pasta</a></li>
+ <li data-name=garlic-lemon-mahi-mahi><a href=dinners/garlic-lemon-mahi-mahi.html>Garlic Lemon Mahi Mahi</a></li>
+ <li data-name=ginger-dill-salmon-salad><a href=dinners/ginger-dill-salmon-salad.html>Ginger Dill Salmon Salad</a></li>
+ <li data-name=grilled-corn-salad><a href=dinners/grilled-corn-salad.html>Grilled Corn Salad</a></li>
+ <li data-name=healthier-pasta-carbonara><a href=dinners/healthier-pasta-carbonara.html>Healthier Pasta Carbonara</a></li>
+ <li data-name=hearty-tortellini-soup><a href=dinners/hearty-tortellini-soup.html>Hearty Tortellini Soup</a></li>
+ <li data-name=hot-and-sour-soup><a href=dinners/hot-and-sour-soup.html>Hot And Sour Soup</a></li>
+ <li data-name=loaded-potato-soup-slow-cooker><a href=dinners/loaded-potato-soup-slow-cooker.html>Loaded Potato Soup Slow Cooker</a></li>
+ <li data-name=med-style-eggplant-pasta><a href=dinners/med-style-eggplant-pasta.html>Med Style Eggplant Pasta</a></li>
+ <li data-name=microwave-mapotofu><a href=dinners/microwave-mapotofu.html>Microwave Mapotofu</a></li>
+ <li data-name=miso-black-beans><a href=dinners/miso-black-beans.html>Miso Black Beans</a></li>
+ <li data-name=mushroom-bourguignon><a href=dinners/mushroom-bourguignon.html>Mushroom Bourguignon</a></li>
+ <li data-name=noodle-soup><a href=dinners/noodle-soup.html>Noodle Soup</a></li>
+ <li data-name=one-pot-broccoli-mac-n-cheese><a href=dinners/one-pot-broccoli-mac-n-cheese.html>One Pot Broccoli Mac N Cheese</a></li>
+ <li data-name=one-pot-lemon-ricotta-pasta><a href=dinners/one-pot-lemon-ricotta-pasta.html>One Pot Lemon Ricotta Pasta</a></li>
+ <li data-name=one-pot-veggie-orzo><a href=dinners/one-pot-veggie-orzo.html>One Pot Veggie Orzo</a></li>
+ <li data-name=onigiri><a href=dinners/onigiri.html>Onigiri</a></li>
+ <li data-name=pickles><a href=dinners/pickles.html>Pickles</a></li>
+ <li data-name=poke-bowl><a href=dinners/poke-bowl.html>Poke Bowl</a></li>
+ <li data-name=pulled-pork-slow-cooker><a href=dinners/pulled-pork-slow-cooker.html>Pulled Pork Slow Cooker</a></li>
+ <li data-name=ricotta><a href=dinners/ricotta.html>Ricotta</a></li>
+ <li data-name=salmon-sheet-pan-with-broccolini-and-potatoes><a href=dinners/salmon-sheet-pan-with-broccolini-and-potatoes.html>Salmon Sheet Pan With Broccolini And Potatoes</a></li>
+ <li data-name=sambal-noodles><a href=dinners/sambal-noodles.html>Sambal Noodles</a></li>
+ <li data-name=sheet-pan-steak-fajitas><a href=dinners/sheet-pan-steak-fajitas.html>Sheet Pan Steak Fajitas</a></li>
+ <li data-name=sloppy-joes><a href=dinners/sloppy-joes.html>Sloppy Joes</a></li>
+ <li data-name=slow-cooked-ribs><a href=dinners/slow-cooked-ribs.html>Slow Cooked Ribs</a></li>
+ <li data-name=spaghetti-bolognese><a href=dinners/spaghetti-bolognese.html>Spaghetti Bolognese</a></li>
+ <li data-name=spicy-shrimp-tacos><a href=dinners/spicy-shrimp-tacos.html>Spicy Shrimp Tacos</a></li>
+ <li data-name=tortilla-soup-slow-cooker><a href=dinners/tortilla-soup-slow-cooker.html>Tortilla Soup Slow Cooker</a></li>
+ <li data-name=tuna-confit><a href=dinners/tuna-confit.html>Tuna Confit</a></li>
+ <li data-name=vegetarain-pasta-e-fagioli><a href=dinners/vegetarain-pasta-e-fagioli.html>Vegetarain Pasta E Fagioli</a></li>
+ <li data-name=white-bean-bolognese><a href=dinners/white-bean-bolognese.html>White Bean Bolognese</a></li>
+ <li data-name=wilted-romaine><a href=dinners/wilted-romaine.html>Wilted Romaine</a></li>
+ <li data-name=wonton><a href=dinners/wonton.html>Wonton</a></li>
+ <li data-name=balsamic-vinaigrette><a href=sauces/balsamic-vinaigrette.html>Balsamic Vinaigrette</a></li>
+ <li data-name=garlic-cream-sauce><a href=sauces/garlic-cream-sauce.html>Garlic Cream Sauce</a></li>
+ <li data-name=ginger-miso-dressing><a href=sauces/ginger-miso-dressing.html>Ginger Miso Dressing</a></li>
+ <li data-name=hummus><a href=sauces/hummus.html>Hummus</a></li>
+ <li data-name=pesto><a href=sauces/pesto.html>Pesto</a></li>
+ <li data-name=roasted-corn-salsa-verde><a href=sauces/roasted-corn-salsa-verde.html>Roasted Corn Salsa Verde</a></li>
+ <li data-name=simple-noodle-sauce><a href=sauces/simple-noodle-sauce.html>Simple Noodle Sauce</a></li>
+ <li data-name=tomatillo-salsa><a href=sauces/tomatillo-salsa.html>Tomatillo Salsa</a></li>
+ <li data-name=tomato-sauce><a href=sauces/tomato-sauce.html>Tomato Sauce</a></li>
 </ul>
 <script>
   let activeLetter = null;
