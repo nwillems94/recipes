@@ -34,6 +34,6 @@ Spoon (or pipe) the pudding into tea cups or small ramekins.
 Refrigerate for at least 30 minutes to an hour. Prior to serving, sprinkle a little flaky sea salt on top.
 
 
-https://about.kaiserpermanente.org/total-health/food-for-health/recipes/instant-chocolate-pudding?cat=2c_recipe
+<https://about.kaiserpermanente.org/total-health/food-for-health/recipes/instant-chocolate-pudding?cat=2c_recipe>
 
 

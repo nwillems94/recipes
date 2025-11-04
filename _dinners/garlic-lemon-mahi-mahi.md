@@ -26,7 +26,7 @@ ingredients:
     unit: "tbsp"
 
 ---
-https://www.delish.com/cooking/recipe-ideas/recipes/a54224/best-mahi-mahi-recipe/?v
+<https://www.delish.com/cooking/recipe-ideas/recipes/a54224/best-mahi-mahi-recipe/?v>
 
 In a large skillet over medium heat, heat 1 tbsp butter and 1 tbsp oil until butter is melted. Add mahi mahi; season with salt and black pepper. Cook, turning occasionally, until golden on both sides, 4 to 5 minutes per side. Transfer to a plate.
 

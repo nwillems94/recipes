@@ -44,7 +44,7 @@ ingredients:
     unit: "Lime"
 
 ---
-https://www.delish.com/cooking/recipe-ideas/recipes/a55504/easy-black-bean-soup-recipe/
+<https://www.delish.com/cooking/recipe-ideas/recipes/a55504/easy-black-bean-soup-recipe/>
 
 In a large pot over medium heat, heat oil. Add onion and cook until soft and translucent, about 5 minutes. Add jalapeños and garlic and cook until fragrant, about 2 minutes. 
 

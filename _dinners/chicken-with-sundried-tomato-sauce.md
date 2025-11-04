@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.eatingwell.com/recipe/276341/chicken-cutlets-with-sun-dried-tomato-cream-sauce/
+<https://www.eatingwell.com/recipe/276341/chicken-cutlets-with-sun-dried-tomato-cream-sauce/>
 
 

@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://tastesbetterfromscratch.com/blueberry-cobbler/
+<https://tastesbetterfromscratch.com/blueberry-cobbler/>
 
 

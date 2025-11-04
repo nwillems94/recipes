@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.ambitiouskitchen.com/healthy-pasta-carbonara/
+<https://www.ambitiouskitchen.com/healthy-pasta-carbonara/>
 
 

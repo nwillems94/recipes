@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://gimmedelicious.com/spicy-shrimp-tacos-with-avocado-salsa-sour-cream-cilantro-sauce/
+<https://gimmedelicious.com/spicy-shrimp-tacos-with-avocado-salsa-sour-cream-cilantro-sauce/>
 
 

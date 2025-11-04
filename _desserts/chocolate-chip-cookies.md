@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://bromabakery.com/best-chocolate-chip-cookies/
+<https://bromabakery.com/best-chocolate-chip-cookies/>
 
 

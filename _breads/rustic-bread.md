@@ -32,6 +32,6 @@ Grease bread pan. Flatten dough and fold into thirds (dry side in). Stretch doug
 
 Bake at 450F for 45 minutes
 
-https://www.youtube.com/watch?v=5mehXzl7yHA
+<https://www.youtube.com/watch?v=5mehXzl7yHA>
 
 

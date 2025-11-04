@@ -22,6 +22,6 @@ Remove once frozen and put in high quality blender or food processor with liquid
 
 Blend until light and airy consistency.
 
-https://about.kaiserpermanente.org/total-health/food-for-health/recipes/frozen-banana-whip
+<https://about.kaiserpermanente.org/total-health/food-for-health/recipes/frozen-banana-whip>
 
 

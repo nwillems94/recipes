@@ -5,5 +5,5 @@ servings: "2"
 ingredients:
 
 ---
-https://www.wellplated.com/jalapeno-margarita/
+<https://www.wellplated.com/jalapeno-margarita/>
 

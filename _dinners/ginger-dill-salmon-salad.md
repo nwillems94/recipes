@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://cooking.nytimes.com/recipes/1021938-ginger-dill-salmon
+<https://cooking.nytimes.com/recipes/1021938-ginger-dill-salmon>
 
 

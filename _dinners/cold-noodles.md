@@ -29,6 +29,6 @@ ingredients:
     unit: "Shredded"
 
 ---
-https://www.bonappetit.com/recipe/cold-sesame-noodles-with-summer-vegetables
+<https://www.bonappetit.com/recipe/cold-sesame-noodles-with-summer-vegetables>
 
 

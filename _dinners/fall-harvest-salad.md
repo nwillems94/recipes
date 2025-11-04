@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://allthehealthythings.com/fall-harvest-salad/
+<https://allthehealthythings.com/fall-harvest-salad/>
 
 

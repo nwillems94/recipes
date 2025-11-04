@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.gimmesomeoven.com/hot-and-sour-soup-recipe/
+<https://www.gimmesomeoven.com/hot-and-sour-soup-recipe/>
 
 

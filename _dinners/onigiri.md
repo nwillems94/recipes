@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.wandercooks.com/simple-onigiri-recipe/
+<https://www.wandercooks.com/simple-onigiri-recipe/>
 
 

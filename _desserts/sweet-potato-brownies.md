@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://blog.myfitnesspal.com/watch/sweet-potato-brownies/
+<https://blog.myfitnesspal.com/watch/sweet-potato-brownies/>
 
 

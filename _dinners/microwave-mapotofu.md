@@ -35,7 +35,7 @@ ingredients:
     unit: "tsps"
 
 ---
-https://cookanyday.com/products/vegan-mapo-tofu?variant=32978114707546
+<https://cookanyday.com/products/vegan-mapo-tofu?variant=32978114707546>
 
 Add the mushrooms, Sichuan peppercorns, oil, ginger, garlic, fermented black beans, and chili paste to the deep Anyday dish. Stir to mix. Cover with the lid (knob lifted). Microwave for 2 minutes, or until fragrant.
 

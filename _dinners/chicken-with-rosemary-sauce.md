@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.tasteofhome.com/recipes/chicken-with-rosemary-butter-sauce/
+<https://www.tasteofhome.com/recipes/chicken-with-rosemary-butter-sauce/>
 
 

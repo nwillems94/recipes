@@ -38,7 +38,7 @@ ingredients:
     unit: "cup"
 
 ---
-https://www.seriouseats.com/2014/03/the-food-lab-the-best-black-bean-burgers.html
+<https://www.seriouseats.com/2014/03/the-food-lab-the-best-black-bean-burgers.html>
 
 
 Adjust oven rack to center position and preheat oven to 350°F. Spread black beans in a single layer on a foil-lined rimmed baking sheet. Place in oven and roast until beans are mostly split open and outer skins are beginning to get crunchy, about 20 minutes. Remove from oven and allow to cool slightly.

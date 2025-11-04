@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://dashofsanity.com/cinnamon-sugar-bread/
+<https://dashofsanity.com/cinnamon-sugar-bread/>
 
 

@@ -26,7 +26,7 @@ ingredients:
     unit: "tbsp"
 
 ---
-https://gimmedelicious.com/avocado-tuna-salad/
+<https://gimmedelicious.com/avocado-tuna-salad/>
 
 Place all of the ingredients in a medium bowl. Mix with a fork or spoon until the avocado is roughly mashed and mixed through.
 

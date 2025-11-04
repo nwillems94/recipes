@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://thecleaneatingcouple.com/healthy-crockpot-pulled-pork/
+<https://thecleaneatingcouple.com/healthy-crockpot-pulled-pork/>
 
 

@@ -29,7 +29,7 @@ ingredients:
     unit: "lettuce"
 
 ---
-https://downshiftology.com/recipes/avocado-egg-salad/
+<https://downshiftology.com/recipes/avocado-egg-salad/>
 
 Add all of the ingredients to a mixing bowl and stir to combine. Salt and pepper to taste.
 

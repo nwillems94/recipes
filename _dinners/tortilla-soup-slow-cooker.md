@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.allrecipes.com/recipe/222096/healthier-slow-cooker-chicken-tortilla-soup/
+<https://www.allrecipes.com/recipe/222096/healthier-slow-cooker-chicken-tortilla-soup/>
 
 

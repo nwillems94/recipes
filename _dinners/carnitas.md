@@ -44,8 +44,8 @@ If a crispy carnitas is desired, spread the pork out on to a sheet pan and turn 
 Broil for 2-3 minutes, until a crust has formed on the meat. Watch carefully so the pork doesn’t burn.
 
 
-https://cookthestory.com/pork-loin-carnitas/
+<https://cookthestory.com/pork-loin-carnitas/>
 
-https://www.youtube.com/watch?v=QU-k9uGmhIQ
+<https://www.youtube.com/watch?v=QU-k9uGmhIQ>
 
 

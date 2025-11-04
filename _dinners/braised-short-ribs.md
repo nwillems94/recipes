@@ -44,6 +44,6 @@ In screw-top jar combine the 1/4 cup water and flour, shake to combine. Add to j
 Spoon over meat and vegetables.
 
 
-https://www.bhg.com/recipe/beef/stove-top-short-ribs/
+<https://www.bhg.com/recipe/beef/stove-top-short-ribs/>
 
 

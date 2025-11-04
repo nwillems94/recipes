@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.gimmesomeoven.com/baked-chicken-breast/
+<https://www.gimmesomeoven.com/baked-chicken-breast/>
 
 

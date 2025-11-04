@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-https://www.foodnetwork.com/recipes/salmon-sheet-pan-supper-with-horseradish-sauce-5652404
+<https://www.foodnetwork.com/recipes/salmon-sheet-pan-supper-with-horseradish-sauce-5652404>
 
 

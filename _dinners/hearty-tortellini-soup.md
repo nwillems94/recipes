@@ -53,7 +53,7 @@ ingredients:
     unit: "cup"
 
 ---
-https://www.cookinglight.com/recipes/hearty-tortellini-soup
+<https://www.cookinglight.com/recipes/hearty-tortellini-soup>
 
 Heat oil in a large Dutch oven over medium-high. Add onion, fennel, garlic, and mushrooms; cook 15 minutes or until liquid evaporates, stirring occasionally. Stir in tomato paste; cook 1 minute. Add stock and next 5 ingredients (through chickpeas); bring to a boil. Reduce heat and simmer 5 minutes.
 

@@ -26,7 +26,7 @@ ingredients:
     unit: "Salt"
 
 ---
-https://www.seriouseats.com/recipes/2009/04/grilling-tomatillo-salsa-recipe.html
+<https://www.seriouseats.com/recipes/2009/04/grilling-tomatillo-salsa-recipe.html>
 
 
 

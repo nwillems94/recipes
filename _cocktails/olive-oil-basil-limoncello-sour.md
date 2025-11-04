@@ -5,5 +5,5 @@ servings: "2"
 ingredients:
 
 ---
-Link<https://www.instagram.com/reel/DKiYSD1SD1P/?igsh=ZTFud2RvN2h5NTV0>
+<https://www.instagram.com/reel/DKiYSD1SD1P/?igsh=ZTFud2RvN2h5NTV0>
 

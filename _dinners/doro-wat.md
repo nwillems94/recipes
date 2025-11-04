@@ -29,7 +29,7 @@ ingredients:
     unit: "tbsp"
 
 ---
-https://www.daringgourmet.com/doro-wat-spicy-ethiopian-chicken-stew/
+<https://www.daringgourmet.com/doro-wat-spicy-ethiopian-chicken-stew/>
 
 Hard boil the eggs. Let cool, peel, and score the sides. Set aside.
 
