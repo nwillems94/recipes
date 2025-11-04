@@ -13,7 +13,7 @@ done
 # Start Jekyll-compatible HTML
 cat <<EOF > "$INDEX_FILE"
 ---
-layout: minimal
+layout: home
 title: Recipe Index
 nav_exclude: true
 ---
@@ -44,19 +44,15 @@ cat <<'EOF' >> "$INDEX_FILE"
   let activeLetter = null;
 
   function filterRecipes() {
-    const visibleLetters = new Set();
 
     document.querySelectorAll("#recipeList li").forEach(item => {
       const name = item.getAttribute("data-name").toLowerCase();
       const matchesLetter = !activeLetter || name.startsWith(activeLetter);
-      const isVisible = matchesLetter;
-
-      item.style.display = isVisible ? "" : "none";
+      item.style.display = matchesLetter ? "" : "none";
     });
 
     document.querySelectorAll(".letter-button").forEach(button => {
       const letter = button.getAttribute("data-letter").toUpperCase();
-      button.style.display = visibleLetters.has(letter) ? "" : "none";
       button.classList.toggle("active", activeLetter === letter);
     });
 
