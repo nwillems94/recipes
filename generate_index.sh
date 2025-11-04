@@ -50,9 +50,10 @@ done
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
 for file in $(ls recipes/*.md | sort); do
-  name="$(basename "$file" .md)"
+  name="$(basename "$file" .html)"
+  display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
   file_tags=$(awk '/^---/,/^---/' "$file" | grep '^- ' | sed 's/- //' | tr -d '\r' | paste -sd "," -)
-  echo "  <li data-name=\"$name\" data-tags=\"$file_tags\"><a href=\"$file\">$name</a></li>" >> "$INDEX_FILE"
+  echo " <li data-name="$name" data-tags="$file_tags"><a href="recipes/$name">$display_name</a></li>" >> "$INDEX_FILE"
 done
 
 # JavaScript
