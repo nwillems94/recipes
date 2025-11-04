@@ -8,8 +8,7 @@ markdown: kramdown
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-just_the_docs:
-  color_scheme: dark
+color_scheme: dark
 
 layouts_dir: _layouts
 
@@ -17,3 +16,34 @@ layouts_dir: _layouts
 exclude:
   - generate_index.sh
   - .github/
+
+collections:
+  breads:
+    output: true
+  breakfast:
+    output: true
+  desserts:
+    output: true
+  dinners:
+    output: true
+  cocktails:
+    output: true
+  sauces: 
+    output: true
+
+just_the_docs:
+  collections:
+    tests:
+      name: Tests
+    breads:
+      name: Breads
+    breakfast:
+      name: Breakfast
+    desserts:
+      name: Desserts
+    dinners:
+      name: Dinners
+    cocktails:
+      name: Cocktails
+    sauces:
+      name: Sauces

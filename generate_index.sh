@@ -17,14 +17,7 @@ layout: home
 title: Recipe Index
 ---
 
-<style>
-  #searchBar { margin-bottom: 10px; padding: 5px; width: 300px; }
-  .filter-group { margin-bottom: 10px; }
-  button { margin: 2px; padding: 5px 10px; }
-  .active { background-color: #007acc; color: white; border: none; }
-</style>
-
-<input type="text" id="searchBar" onkeyup="filterRecipes()" placeholder="Search for recipes...">
+<h1>Recipe Index</h1>
 <div class="filter-group" id="letterButtons">
 EOF
 
@@ -49,20 +42,14 @@ cat <<'EOF' >> "$INDEX_FILE"
   let activeLetter = null;
 
   function filterRecipes() {
-    const input = document.getElementById("searchBar").value.toLowerCase();
     const visibleLetters = new Set();
 
     document.querySelectorAll("#recipeList li").forEach(item => {
       const name = item.getAttribute("data-name").toLowerCase();
-      const matchesSearch = name.includes(input);
       const matchesLetter = !activeLetter || name.startsWith(activeLetter);
-      const isVisible = matchesSearch && matchesLetter;
+      const isVisible = matchesLetter;
 
       item.style.display = isVisible ? "" : "none";
-
-      if (matchesSearch) {
-        visibleLetters.add(name.charAt(0).toUpperCase());
-      }
     });
 
     document.querySelectorAll(".letter-button").forEach(button => {
