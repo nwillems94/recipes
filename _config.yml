@@ -10,7 +10,7 @@ plugins:
 minima:
   skin: dark
   hide_site_feed_link: true
-  nav_pages: false
+  nav_pages: []
 layouts_dir: _layouts
 
 # files and folders
