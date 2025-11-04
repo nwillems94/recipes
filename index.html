@@ -1,0 +1,186 @@
+---
+layout: home
+title: Recipe Index
+---
+
+<style>
+  #searchBar { margin-bottom: 10px; padding: 5px; width: 300px; }
+  .filter-group { margin-bottom: 10px; }
+  button { margin: 2px; padding: 5px 10px; }
+  .active { background-color: #007acc; color: white; border: none; }
+</style>
+
+<h1>Recipe Index</h1>
+<input type="text" id="searchBar" onkeyup="filterRecipes()" placeholder="Search for recipes...">
+<div class="filter-group" id="letterButtons">
+  <button class="letter-button" data-letter="a" onclick="filterByLetter('a')">a</button>
+  <button class="letter-button" data-letter="b" onclick="filterByLetter('b')">b</button>
+  <button class="letter-button" data-letter="c" onclick="filterByLetter('c')">c</button>
+  <button class="letter-button" data-letter="d" onclick="filterByLetter('d')">d</button>
+  <button class="letter-button" data-letter="e" onclick="filterByLetter('e')">e</button>
+  <button class="letter-button" data-letter="f" onclick="filterByLetter('f')">f</button>
+  <button class="letter-button" data-letter="g" onclick="filterByLetter('g')">g</button>
+  <button class="letter-button" data-letter="h" onclick="filterByLetter('h')">h</button>
+  <button class="letter-button" data-letter="l" onclick="filterByLetter('l')">l</button>
+  <button class="letter-button" data-letter="m" onclick="filterByLetter('m')">m</button>
+  <button class="letter-button" data-letter="n" onclick="filterByLetter('n')">n</button>
+  <button class="letter-button" data-letter="o" onclick="filterByLetter('o')">o</button>
+  <button class="letter-button" data-letter="p" onclick="filterByLetter('p')">p</button>
+  <button class="letter-button" data-letter="r" onclick="filterByLetter('r')">r</button>
+  <button class="letter-button" data-letter="s" onclick="filterByLetter('s')">s</button>
+  <button class="letter-button" data-letter="t" onclick="filterByLetter('t')">t</button>
+  <button class="letter-button" data-letter="v" onclick="filterByLetter('v')">v</button>
+  <button class="letter-button" data-letter="w" onclick="filterByLetter('w')">w</button>
+</div><div class="filter-group" id="tagButtons">
+</div><ul id="recipeList">
+  <li data-name="advokaat" data-tags=""><a href="recipes/advokaat.md">advokaat</a></li>
+  <li data-name="aloo-gobi" data-tags=""><a href="recipes/aloo-gobi.md">aloo-gobi</a></li>
+  <li data-name="anyday-salmon-bowl" data-tags=""><a href="recipes/anyday-salmon-bowl.md">anyday-salmon-bowl</a></li>
+  <li data-name="arugula-and-lemon-chicken-risotto" data-tags=""><a href="recipes/arugula-and-lemon-chicken-risotto.md">arugula-and-lemon-chicken-risotto</a></li>
+  <li data-name="avocado-egg-salad" data-tags=""><a href="recipes/avocado-egg-salad.md">avocado-egg-salad</a></li>
+  <li data-name="avocado-pudding" data-tags=""><a href="recipes/avocado-pudding.md">avocado-pudding</a></li>
+  <li data-name="avocado-tuna-salad" data-tags=""><a href="recipes/avocado-tuna-salad.md">avocado-tuna-salad</a></li>
+  <li data-name="baguettes" data-tags=""><a href="recipes/baguettes.md">baguettes</a></li>
+  <li data-name="baked-chicken" data-tags=""><a href="recipes/baked-chicken.md">baked-chicken</a></li>
+  <li data-name="baked-feta-pasta" data-tags=""><a href="recipes/baked-feta-pasta.md">baked-feta-pasta</a></li>
+  <li data-name="baked-orzo" data-tags=""><a href="recipes/baked-orzo.md">baked-orzo</a></li>
+  <li data-name="balsamic-chicken-slow-cooker" data-tags=""><a href="recipes/balsamic-chicken-slow-cooker.md">balsamic-chicken-slow-cooker</a></li>
+  <li data-name="balsamic-vinaigrette" data-tags=""><a href="recipes/balsamic-vinaigrette.md">balsamic-vinaigrette</a></li>
+  <li data-name="banoffee-breakfast" data-tags=""><a href="recipes/banoffee-breakfast.md">banoffee-breakfast</a></li>
+  <li data-name="biga-bread" data-tags=""><a href="recipes/biga-bread.md">biga-bread</a></li>
+  <li data-name="black-bean-burgers" data-tags=""><a href="recipes/black-bean-burgers.md">black-bean-burgers</a></li>
+  <li data-name="black-bean-soup-gf" data-tags=""><a href="recipes/black-bean-soup-gf.md">black-bean-soup-gf</a></li>
+  <li data-name="blueberry-cobbler" data-tags=""><a href="recipes/blueberry-cobbler.md">blueberry-cobbler</a></li>
+  <li data-name="boiled-chicken" data-tags=""><a href="recipes/boiled-chicken.md">boiled-chicken</a></li>
+  <li data-name="braised-short-ribs" data-tags=""><a href="recipes/braised-short-ribs.md">braised-short-ribs</a></li>
+  <li data-name="bread-high-hydration" data-tags=""><a href="recipes/bread-high-hydration.md">bread-high-hydration</a></li>
+  <li data-name="bread-overnight-sourdough" data-tags=""><a href="recipes/bread-overnight-sourdough.md">bread-overnight-sourdough</a></li>
+  <li data-name="bread-quick-sourdough" data-tags=""><a href="recipes/bread-quick-sourdough.md">bread-quick-sourdough</a></li>
+  <li data-name="brown-butter-cookies" data-tags=""><a href="recipes/brown-butter-cookies.md">brown-butter-cookies</a></li>
+  <li data-name="buns" data-tags=""><a href="recipes/buns.md">buns</a></li>
+  <li data-name="carnitas" data-tags=""><a href="recipes/carnitas.md">carnitas</a></li>
+  <li data-name="carrot-cake" data-tags=""><a href="recipes/carrot-cake.md">carrot-cake</a></li>
+  <li data-name="cheesy-green-chile-and-avocado-rice-quesadillas" data-tags=""><a href="recipes/cheesy-green-chile-and-avocado-rice-quesadillas.md">cheesy-green-chile-and-avocado-rice-quesadillas</a></li>
+  <li data-name="chicken-wings" data-tags=""><a href="recipes/chicken-wings.md">chicken-wings</a></li>
+  <li data-name="chicken-with-rosemary-sauce" data-tags=""><a href="recipes/chicken-with-rosemary-sauce.md">chicken-with-rosemary-sauce</a></li>
+  <li data-name="chicken-with-sundried-tomato-sauce" data-tags=""><a href="recipes/chicken-with-sundried-tomato-sauce.md">chicken-with-sundried-tomato-sauce</a></li>
+  <li data-name="chocolate-chip-cookies" data-tags=""><a href="recipes/chocolate-chip-cookies.md">chocolate-chip-cookies</a></li>
+  <li data-name="cinnamon-sugar-bread" data-tags=""><a href="recipes/cinnamon-sugar-bread.md">cinnamon-sugar-bread</a></li>
+  <li data-name="cinnamon-sugar-roasted-almonds" data-tags=""><a href="recipes/cinnamon-sugar-roasted-almonds.md">cinnamon-sugar-roasted-almonds</a></li>
+  <li data-name="cold-noodles" data-tags=""><a href="recipes/cold-noodles.md">cold-noodles</a></li>
+  <li data-name="crispy-feta-with-lemon-pepper-chicken-and-rice" data-tags=""><a href="recipes/crispy-feta-with-lemon-pepper-chicken-and-rice.md">crispy-feta-with-lemon-pepper-chicken-and-rice</a></li>
+  <li data-name="cóctel-de-camarón" data-tags=""><a href="recipes/cóctel-de-camarón.md">cóctel-de-camarón</a></li>
+  <li data-name="doro-wat" data-tags=""><a href="recipes/doro-wat.md">doro-wat</a></li>
+  <li data-name="easy-scalloped-potatoes" data-tags=""><a href="recipes/easy-scalloped-potatoes.md">easy-scalloped-potatoes</a></li>
+  <li data-name="egg-rolls" data-tags=""><a href="recipes/egg-rolls.md">egg-rolls</a></li>
+  <li data-name="english-muffins" data-tags=""><a href="recipes/english-muffins.md">english-muffins</a></li>
+  <li data-name="falafel" data-tags=""><a href="recipes/falafel.md">falafel</a></li>
+  <li data-name="fall-harvest-salad" data-tags=""><a href="recipes/fall-harvest-salad.md">fall-harvest-salad</a></li>
+  <li data-name="flatbread" data-tags=""><a href="recipes/flatbread.md">flatbread</a></li>
+  <li data-name="flour-tortillas" data-tags=""><a href="recipes/flour-tortillas.md">flour-tortillas</a></li>
+  <li data-name="frozen-banana-whip" data-tags=""><a href="recipes/frozen-banana-whip.md">frozen-banana-whip</a></li>
+  <li data-name="garlic-confit-pasta" data-tags=""><a href="recipes/garlic-confit-pasta.md">garlic-confit-pasta</a></li>
+  <li data-name="garlic-cream-sauce" data-tags=""><a href="recipes/garlic-cream-sauce.md">garlic-cream-sauce</a></li>
+  <li data-name="garlic-lemon-mahi-mahi" data-tags=""><a href="recipes/garlic-lemon-mahi-mahi.md">garlic-lemon-mahi-mahi</a></li>
+  <li data-name="ginger-dill-salmon-salad" data-tags=""><a href="recipes/ginger-dill-salmon-salad.md">ginger-dill-salmon-salad</a></li>
+  <li data-name="ginger-miso-dressing" data-tags=""><a href="recipes/ginger-miso-dressing.md">ginger-miso-dressing</a></li>
+  <li data-name="grilled-corn-salad" data-tags=""><a href="recipes/grilled-corn-salad.md">grilled-corn-salad</a></li>
+  <li data-name="healthier-pasta-carbonara" data-tags=""><a href="recipes/healthier-pasta-carbonara.md">healthier-pasta-carbonara</a></li>
+  <li data-name="hearty-tortellini-soup" data-tags=""><a href="recipes/hearty-tortellini-soup.md">hearty-tortellini-soup</a></li>
+  <li data-name="horchata" data-tags=""><a href="recipes/horchata.md">horchata</a></li>
+  <li data-name="hot-and-sour-soup" data-tags=""><a href="recipes/hot-and-sour-soup.md">hot-and-sour-soup</a></li>
+  <li data-name="hummus" data-tags=""><a href="recipes/hummus.md">hummus</a></li>
+  <li data-name="lemon-bars-with-pistachio-crust" data-tags=""><a href="recipes/lemon-bars-with-pistachio-crust.md">lemon-bars-with-pistachio-crust</a></li>
+  <li data-name="lemon-posset" data-tags=""><a href="recipes/lemon-posset.md">lemon-posset</a></li>
+  <li data-name="loaded-potato-soup-slow-cooker" data-tags=""><a href="recipes/loaded-potato-soup-slow-cooker.md">loaded-potato-soup-slow-cooker</a></li>
+  <li data-name="med-style-eggplant-pasta" data-tags=""><a href="recipes/med-style-eggplant-pasta.md">med-style-eggplant-pasta</a></li>
+  <li data-name="microwave-mapotofu" data-tags=""><a href="recipes/microwave-mapotofu.md">microwave-mapotofu</a></li>
+  <li data-name="miso-black-beans" data-tags=""><a href="recipes/miso-black-beans.md">miso-black-beans</a></li>
+  <li data-name="mushroom-bourguignon" data-tags=""><a href="recipes/mushroom-bourguignon.md">mushroom-bourguignon</a></li>
+  <li data-name="naan" data-tags=""><a href="recipes/naan.md">naan</a></li>
+  <li data-name="noodle-soup" data-tags=""><a href="recipes/noodle-soup.md">noodle-soup</a></li>
+  <li data-name="one-pot-broccoli-mac-n-cheese" data-tags=""><a href="recipes/one-pot-broccoli-mac-n-cheese.md">one-pot-broccoli-mac-n-cheese</a></li>
+  <li data-name="one-pot-lemon-ricotta-pasta" data-tags=""><a href="recipes/one-pot-lemon-ricotta-pasta.md">one-pot-lemon-ricotta-pasta</a></li>
+  <li data-name="one-pot-veggie-orzo" data-tags=""><a href="recipes/one-pot-veggie-orzo.md">one-pot-veggie-orzo</a></li>
+  <li data-name="onigiri" data-tags=""><a href="recipes/onigiri.md">onigiri</a></li>
+  <li data-name="pannekoeken" data-tags=""><a href="recipes/pannekoeken.md">pannekoeken</a></li>
+  <li data-name="pesto" data-tags=""><a href="recipes/pesto.md">pesto</a></li>
+  <li data-name="pickles" data-tags=""><a href="recipes/pickles.md">pickles</a></li>
+  <li data-name="pizza-dough" data-tags=""><a href="recipes/pizza-dough.md">pizza-dough</a></li>
+  <li data-name="poke-bowl" data-tags=""><a href="recipes/poke-bowl.md">poke-bowl</a></li>
+  <li data-name="prosciutto-bread" data-tags=""><a href="recipes/prosciutto-bread.md">prosciutto-bread</a></li>
+  <li data-name="pulled-pork-slow-cooker" data-tags=""><a href="recipes/pulled-pork-slow-cooker.md">pulled-pork-slow-cooker</a></li>
+  <li data-name="pumpkin-cheesecake-roll" data-tags=""><a href="recipes/pumpkin-cheesecake-roll.md">pumpkin-cheesecake-roll</a></li>
+  <li data-name="raisin-bread" data-tags=""><a href="recipes/raisin-bread.md">raisin-bread</a></li>
+  <li data-name="ricotta" data-tags=""><a href="recipes/ricotta.md">ricotta</a></li>
+  <li data-name="roasted-corn-salsa-verde" data-tags=""><a href="recipes/roasted-corn-salsa-verde.md">roasted-corn-salsa-verde</a></li>
+  <li data-name="roti" data-tags=""><a href="recipes/roti.md">roti</a></li>
+  <li data-name="rustic-bread" data-tags=""><a href="recipes/rustic-bread.md">rustic-bread</a></li>
+  <li data-name="salmon-sheet-pan-with-broccolini-and-potatoes" data-tags=""><a href="recipes/salmon-sheet-pan-with-broccolini-and-potatoes.md">salmon-sheet-pan-with-broccolini-and-potatoes</a></li>
+  <li data-name="sambal-noodles" data-tags=""><a href="recipes/sambal-noodles.md">sambal-noodles</a></li>
+  <li data-name="sheet-pan-steak-fajitas" data-tags=""><a href="recipes/sheet-pan-steak-fajitas.md">sheet-pan-steak-fajitas</a></li>
+  <li data-name="sheetpan-pizza" data-tags=""><a href="recipes/sheetpan-pizza.md">sheetpan-pizza</a></li>
+  <li data-name="simple-noodle-sauce" data-tags=""><a href="recipes/simple-noodle-sauce.md">simple-noodle-sauce</a></li>
+  <li data-name="sloppy-joes" data-tags=""><a href="recipes/sloppy-joes.md">sloppy-joes</a></li>
+  <li data-name="slow-cooked-ribs" data-tags=""><a href="recipes/slow-cooked-ribs.md">slow-cooked-ribs</a></li>
+  <li data-name="smoked-salmon-dutch-baby" data-tags=""><a href="recipes/smoked-salmon-dutch-baby.md">smoked-salmon-dutch-baby</a></li>
+  <li data-name="sourdough-focaccia" data-tags=""><a href="recipes/sourdough-focaccia.md">sourdough-focaccia</a></li>
+  <li data-name="sourdough-waffles" data-tags=""><a href="recipes/sourdough-waffles.md">sourdough-waffles</a></li>
+  <li data-name="spaghetti-bolognese" data-tags=""><a href="recipes/spaghetti-bolognese.md">spaghetti-bolognese</a></li>
+  <li data-name="spicy-shrimp-tacos" data-tags=""><a href="recipes/spicy-shrimp-tacos.md">spicy-shrimp-tacos</a></li>
+  <li data-name="sweet-potato-brownies" data-tags=""><a href="recipes/sweet-potato-brownies.md">sweet-potato-brownies</a></li>
+  <li data-name="tomatillo-salsa" data-tags=""><a href="recipes/tomatillo-salsa.md">tomatillo-salsa</a></li>
+  <li data-name="tomato-sauce" data-tags=""><a href="recipes/tomato-sauce.md">tomato-sauce</a></li>
+  <li data-name="tortilla-soup-slow-cooker" data-tags=""><a href="recipes/tortilla-soup-slow-cooker.md">tortilla-soup-slow-cooker</a></li>
+  <li data-name="tuna-confit" data-tags=""><a href="recipes/tuna-confit.md">tuna-confit</a></li>
+  <li data-name="vegetarain-pasta-e-fagioli" data-tags=""><a href="recipes/vegetarain-pasta-e-fagioli.md">vegetarain-pasta-e-fagioli</a></li>
+  <li data-name="white-bean-bolognese" data-tags=""><a href="recipes/white-bean-bolognese.md">white-bean-bolognese</a></li>
+  <li data-name="wilted-romaine" data-tags=""><a href="recipes/wilted-romaine.md">wilted-romaine</a></li>
+  <li data-name="wonton" data-tags=""><a href="recipes/wonton.md">wonton</a></li>
+</ul>
+<script>
+  let activeTag = null;
+  let activeLetter = null;
+
+  function filterRecipes() {
+    const input = document.getElementById("searchBar").value.toLowerCase();
+    const visibleLetters = new Set();
+
+    document.querySelectorAll("#recipeList li").forEach(item => {
+      const name = item.getAttribute("data-name").toLowerCase();
+      const tags = item.getAttribute("data-tags");
+      const matchesSearch = name.includes(input);
+      const matchesTag = !activeTag || (tags && tags.includes(activeTag));
+      const matchesLetter = !activeLetter || name.startsWith(activeLetter);
+      const isVisible = matchesSearch && matchesTag && matchesLetter;
+
+      item.style.display = isVisible ? "" : "none";
+
+      if (matchesSearch && matchesTag) {
+        visibleLetters.add(name.charAt(0).toUpperCase());
+      }
+    });
+
+    document.querySelectorAll(".letter-button").forEach(button => {
+      const letter = button.getAttribute("data-letter").toUpperCase();
+      button.style.display = visibleLetters.has(letter) ? "" : "none";
+      button.classList.toggle("active", activeLetter === letter);
+    });
+
+    document.querySelectorAll(".tag-button").forEach(button => {
+      const tag = button.getAttribute("data-tag");
+      button.classList.toggle("active", activeTag === tag);
+    });
+  }
+
+  function filterByTag(tag) {
+    activeTag = (activeTag === tag) ? null : tag;
+    activeLetter = null;
+    filterRecipes();
+  }
+
+  function filterByLetter(letter) {
+    activeLetter = (activeLetter === letter) ? null : letter;
+    filterRecipes();
+  }
+</script>
