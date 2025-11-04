@@ -2,9 +2,6 @@
 layout: post
 ---
 
-<h1>{{ page.title }}</h1>
-<p>{{ content }}</p>
-
 <label for="servings">Servings:</label>
 <input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
 
@@ -16,6 +13,8 @@ layout: post
     </li>
   {% endfor %}
 </ul>
+
+<p>{{ content }}</p>
 
 <script>
   const defaultServings = parseFloat("{{ page.servings }}");
