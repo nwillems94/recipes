@@ -1,11 +1,17 @@
+
+title: Recipes
+author: Nick Willems
+
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
 minima:
   skin: dark
 layouts_dir: _layouts
 
 # files and folders
-include:
-  - index.html
-  - recipes/*
+exclude:
+  - generate_index.sh
+  - .github/
