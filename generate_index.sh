@@ -31,7 +31,6 @@ title: Recipe Index
   .active { background-color: #007acc; color: white; border: none; }
 </style>
 
-<h1>Recipe Index</h1>
 <input type="text" id="searchBar" onkeyup="filterRecipes()" placeholder="Search for recipes...">
 <div class="filter-group" id="letterButtons">
 EOF

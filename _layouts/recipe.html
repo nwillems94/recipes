@@ -2,10 +2,11 @@
 layout: post
 ---
 
+<h2>Ingredients</h2>
+
 <label for="servings">Servings:</label>
 <input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
 
-<h2>Ingredients</h2>
 <ul id="ingredientList">
   {% for ingredient in page.ingredients %}
     <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}">
@@ -13,6 +14,8 @@ layout: post
     </li>
   {% endfor %}
 </ul>
+
+<hr>
 
 <p>{{ content }}</p>
 
