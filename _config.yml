@@ -1,8 +1,6 @@
 
 title: Recipe Collection
-description: A collection of delicious recipes
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
+url: "https://nwillems94.github.io/" 
 
 # Build settings
 markdown: kramdown
@@ -12,11 +10,7 @@ theme:
 permalink: pretty
 layouts_dir: _layouts
 
-# Source and destination folders
-source: recipes
-destination: docs
-
-# Exclude files and folders
-exclude:
-  - generate_index.sh
-  - .github
+# files and folders
+include:
+  - index.html
+  - recipes/*
