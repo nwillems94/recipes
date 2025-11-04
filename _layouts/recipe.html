@@ -18,7 +18,7 @@ layout: post
 </ul>
 
 <script>
-  const defaultServings = parseFloat({{ page.servings }});
+  const defaultServings = parseFloat("{{ page.servings }}");
 
   function updateIngredients() {
     const newServings = parseFloat(document.getElementById('servings').value);
