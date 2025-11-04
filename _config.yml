@@ -1,10 +1,7 @@
-
-title: Recipe Collection
-
 # Build settings
 markdown: kramdown
-theme: 
-  minima:
+theme: minima
+minima:
   skin: dark
 layouts_dir: _layouts
 
