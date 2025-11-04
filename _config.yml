@@ -9,6 +9,9 @@ plugins:
   - jekyll-remote-theme
 minima:
   skin: dark
+  hide_site_feed_link: true
+  nav_pages:
+    - index.html
 layouts_dir: _layouts
 
 # files and folders
