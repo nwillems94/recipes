@@ -1,16 +1,16 @@
 
 title: Recipes
-author: Nick Willems
+author: 
+  name: Nick Willems
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll/minima
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-minima:
-  skin: dark
-  hide_site_feed_link: true
-  nav_pages: []
+just_the_docs:
+  color_scheme: dark
+
 layouts_dir: _layouts
 
 # files and folders
