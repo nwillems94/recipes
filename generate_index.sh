@@ -16,8 +16,6 @@ cat <<EOF > "$INDEX_FILE"
 layout: home
 title: Recipe Index
 nav_exclude: true
-nav_enabled: false
-search_enabled: false
 ---
 
 <h1>Recipe Index</h1>

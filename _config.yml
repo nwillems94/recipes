@@ -9,14 +9,14 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 color_scheme: dark
-
 layouts_dir: _layouts
 
-# files and folders
+# exclude working files and folders
 exclude:
   - generate_index.sh
   - .github/
 
+# recipe categories
 collections:
   breads:
     output: true
@@ -34,20 +34,20 @@ collections:
 just_the_docs:
   collections:
     breakfast:
-      name: Breakfast
+      name: 🥞Breakfast
       nav_fold: true
     breads:
-      name: Breads
+      name: 🥖Breads
       nav_fold: true
     dinners:
-      name: Dinners
+      name: 🥘Dinners
       nav_fold: true
     sauces:
-      name: Sauces
+      name: 🍝Sauces
       nav_fold: true
     desserts:
-      name: Desserts
+      name: 🧁Desserts
       nav_fold: true
     cocktails:
-      name: Cocktails
+      name: 🍸Cocktails
       nav_fold: true
