@@ -5,7 +5,7 @@ declare -A tags_map
 declare -A letter_map
 
 # Collect recipe data
-for file in recipes/*.md; do
+for file in docs/*.md; do
   name="$(basename "$file" .md)"
   letter="${name:0:1}"
   letter_map["$letter"]=1
@@ -49,11 +49,11 @@ done
 
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
-for file in $(ls recipes/*.md | sort); do
-  name="$(basename "$file" .html)"
+for file in $(ls docs/*.md | sort); do
+  name="$(basename "$file" .md)"
   display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
   file_tags=$(awk '/^---/,/^---/' "$file" | grep '^- ' | sed 's/- //' | tr -d '\r' | paste -sd "," -)
-  echo " <li data-name="$name" data-tags="$file_tags"><a href="recipes/$name">$display_name</a></li>" >> "$INDEX_FILE"
+  echo " <li data-name="$name" data-tags="$file_tags"><a href="docs/$name.html">$display_name</a></li>" >> "$INDEX_FILE"
 done
 
 # JavaScript
