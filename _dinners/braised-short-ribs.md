@@ -6,7 +6,7 @@ ingredients:
   - name: "bone-in beef short ribs, 3 lb. boneless beef short ribs or one 3 lb. beef chuck roast, trimmed of fat"
     quantity: "4-5"
     unit: "pounds"
-  - name: "white onions, sliced into 1/2'' rings"
+  - name: "white onions, sliced into ½'' rings"
     quantity: "3"
     unit: "large"
   - name: "can beef broth"
@@ -22,7 +22,7 @@ ingredients:
     quantity: "1"
     unit: "lb"
   - name: "water"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "cup"
   - name: "flour"
     quantity: "2"
@@ -39,7 +39,7 @@ Add carrots. Cover; cook 30 minutes or until meat and vegetables are tender, spo
 
 Using slotted spoon, transfer meat and vegetables to serving platter. 
 
-In screw-top jar combine the 1/4 cup water and flour, shake to combine. Add to juices in pan. Cook and stir over medium heat until thickened.
+In screw-top jar combine the ¼ cup water and flour, shake to combine. Add to juices in pan. Cook and stir over medium heat until thickened.
 
 Spoon over meat and vegetables.
 

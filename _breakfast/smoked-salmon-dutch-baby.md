@@ -25,7 +25,7 @@ ingredients:
     quantity: ""
     unit: "Handful"
   - name: ""
-    quantity: "½"
+    quantity: "0.5"
     unit: "lemon"
 
 ---

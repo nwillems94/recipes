@@ -19,7 +19,7 @@ ingredients:
     quantity: "1"
     unit: "small"
   - name: "water"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "cup"
   - name: "& Salt to taste"
     quantity: ""

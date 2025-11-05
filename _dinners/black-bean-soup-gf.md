@@ -25,7 +25,7 @@ ingredients:
     quantity: "1"
     unit: "tbsp"
   - name: "ground cumin"
-    quantity: "½"
+    quantity: "0.5"
     unit: "tsp"
   - name: "chili powder"
     quantity: "1"

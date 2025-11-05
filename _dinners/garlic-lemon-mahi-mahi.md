@@ -19,7 +19,7 @@ ingredients:
     quantity: "3"
     unit: "cloves"
   - name: "crushed red pepper flakes"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "tsp"
   - name: "(plus more for serving) fresh parsley, chopped"
     quantity: "1"

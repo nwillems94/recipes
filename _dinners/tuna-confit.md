@@ -4,7 +4,7 @@ layout: recipe
 servings: "2"
 ingredients:
   - name: "tuna"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "lb"
   - name: "lemon zest"
     quantity: "1"
@@ -16,13 +16,13 @@ ingredients:
     quantity: "1"
     unit: "tsp"
   - name: "fennel seeds"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
   - name: "garlic, thinly sliced"
     quantity: "2"
     unit: "cloves"
   - name: "olive oil"
-    quantity: "¾"
+    quantity: "0.75"
     unit: "cup"
 
 ---

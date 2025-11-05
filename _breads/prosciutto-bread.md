@@ -13,7 +13,7 @@ ingredients:
     quantity: "1"
     unit: "tsp"
   - name: "black pepper"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
   - name: "salt"
     quantity: "1"
@@ -41,6 +41,6 @@ Dust with flour, let relax under plastic wrap for 20 minutes
 
 Roll the dough into an 18'' rope, overlap the end by 2'' to form a ring. Let rise on Silpain for 1 hour or until doubled in size.
 
-Brush the dough with butter, then place in preheated 450F oven with 1/2 cup of ice cubes on the tray below. Bake for 20 minutes, decrease temperature to 400F and bake for 10-15 minutes more.
+Brush the dough with butter, then place in preheated 450F oven with 0.5 cup of ice cubes on the tray below. Bake for 20 minutes, decrease temperature to 400F and bake for 10-15 minutes more.
 
 

@@ -7,7 +7,7 @@ ingredients:
     quantity: "8"
     unit: "oz"
   - name: "olive oil"
-    quantity: "½"
+    quantity: "0.5"
     unit: "cup"
   - name: "cherry tomatoes"
     quantity: "1"

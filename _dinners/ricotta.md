@@ -13,7 +13,7 @@ ingredients:
     quantity: "1"
     unit: "tbsp"
   - name: "salt"
-    quantity: "½"
+    quantity: "0.5"
     unit: "tsp"
 
 ---

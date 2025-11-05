@@ -22,7 +22,7 @@ ingredients:
     quantity: ""
     unit: "Serrano"
   - name: "thinly sliced scallions"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "cup"
   - name: ""
     quantity: ""

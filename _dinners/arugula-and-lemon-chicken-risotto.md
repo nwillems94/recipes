@@ -10,10 +10,10 @@ ingredients:
     quantity: "1"
     unit: "small"
   - name: "boneless, skinless chicken breast/thighs, cut into bite-sized pieces"
-    quantity: "½"
+    quantity: "0.5"
     unit: "pound"
   - name: "arborio rice"
-    quantity: "¾"
+    quantity: "0.75"
     unit: "cups"
   - name: "zested and juiced"
     quantity: "1"
@@ -28,7 +28,7 @@ ingredients:
     quantity: "2"
     unit: "tbsp"
   - name: "Parmesan cheese, freshly grated"
-    quantity: "1/3"
+    quantity: "0.33"
     unit: "cup"
 
 ---

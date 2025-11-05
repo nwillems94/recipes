@@ -16,7 +16,7 @@ ingredients:
     quantity: "1"
     unit: "cup"
   - name: "shredded Mexican cheese"
-    quantity: "1½"
+    quantity: "1.5"
     unit: "cups"
   - name: "yogurt or sour cream (for serving)"
     quantity: ""

@@ -16,7 +16,7 @@ ingredients:
     quantity: "1"
     unit: "tsp"
   - name: "raisins"
-    quantity: "½"
+    quantity: "0.5"
     unit: "cup"
   - name: "milk"
     quantity: "1"

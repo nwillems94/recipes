@@ -13,7 +13,7 @@ ingredients:
     quantity: "2/3"
     unit: "cup"
   - name: "sugar"
-    quantity: "½"
+    quantity: "0.5"
     unit: "cup"
 
 ---

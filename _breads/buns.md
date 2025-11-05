@@ -22,7 +22,7 @@ ingredients:
     quantity: "5"
     unit: "tbsp"
   - name: "(150g) milk"
-    quantity: "½"
+    quantity: "0.5"
     unit: "cup"
   - name: "(250g) water"
     quantity: "1"

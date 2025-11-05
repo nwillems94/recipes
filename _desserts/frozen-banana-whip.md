@@ -7,14 +7,14 @@ ingredients:
     quantity: "2"
     unit: "ripe"
   - name: "water or unsweetened almond milk"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "cup"
   - name: "tsps of vanilla"
     quantity: "1"
-    unit: "1/2"
+    unit: "0.5"
 
 ---
-Peel bananas and cut crosswise into 1/2-inch slices. 
+Peel bananas and cut crosswise into ½-inch slices. 
 
 Place in container and freeze. 
 

@@ -22,10 +22,10 @@ ingredients:
     quantity: "2"
     unit: "chipotle"
   - name: "roasted cashews"
-    quantity: "¾"
+    quantity: "0.75"
     unit: "cup"
   - name: "finely crumbled feta or cotija cheese"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "cup"
   - name: "mayonnaise"
     quantity: "2"
@@ -34,7 +34,7 @@ ingredients:
     quantity: "1"
     unit: "whole"
   - name: "panko bread crumbs"
-    quantity: "¾"
+    quantity: "0.75"
     unit: "cup"
 
 ---

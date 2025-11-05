@@ -19,7 +19,7 @@ ingredients:
     quantity: "1"
     unit: "lime,"
   - name: ""
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "Jalapeño"
 
 ---

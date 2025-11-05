@@ -25,10 +25,10 @@ ingredients:
     quantity: "1"
     unit: "tbsp"
   - name: "oregano"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
   - name: "cumin"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
 
 ---

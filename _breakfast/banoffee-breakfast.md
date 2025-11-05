@@ -7,7 +7,7 @@ ingredients:
     quantity: "1"
     unit: "cup"
   - name: "cornmeal"
-    quantity: "½"
+    quantity: "0.5"
     unit: "cup"
   - name: "mashed"
     quantity: "1"
@@ -22,16 +22,16 @@ ingredients:
     quantity: "1"
     unit: "tsp"
   - name: "baking soda"
-    quantity: "½"
+    quantity: "0.5"
     unit: "tsp"
   - name: "salt"
     quantity: "2"
     unit: "pinches"
   - name: "yogurt"
-    quantity: "½"
+    quantity: "0.5"
     unit: "cup"
   - name: "cashews"
-    quantity: "¼"
+    quantity: "0.25"
     unit: "cup"
   - name: "chia seeds"
     quantity: "2"
@@ -40,7 +40,7 @@ ingredients:
 ---
 Combine dry ingredients in a large bowl and add the mashed banana and ¼ cup of milk.
 
-Place the dates, ½ cup of warm milk, and vanilla extract in a food processor. Let soak, then blend until smooth. 
+Place the dates, 0.5 cup of warm milk, and vanilla extract in a food processor. Let soak, then blend until smooth. 
 
 Move half of the blended mixture to the bowl with the dry ingredients and combine. Place in a baking dish and bake at 350 for 25 minutes. 
 

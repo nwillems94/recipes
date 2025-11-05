@@ -16,13 +16,13 @@ ingredients:
     quantity: "1"
     unit: "tbsp"
   - name: "lemon juice"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "cup"
   - name: "flakes, for serving"
     quantity: ""
     unit: "Red-pepper"
   - name: "thinly sliced or torn basil leaves, for serving (optional)"
-    quantity: "¼"
+    quantity: "0.25"
     unit: "cup"
 
 ---

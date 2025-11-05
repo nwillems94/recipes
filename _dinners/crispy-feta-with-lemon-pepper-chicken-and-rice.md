@@ -19,13 +19,13 @@ Ingredients
 *   ▢ 2 shallots, sliced
 *   ▢ 4 cloves garlic, chopped
 *   ▢ 1 8oz feta cheese block, patted dry
-*   ▢ 1/4 cup cornstarch
-*   ▢ 3/4 cup mixed fresh herbs, cilantro, parsley, and dill
+*   ▢ 0.25 cup cornstarch
+*   ▢ 0.75 cup mixed fresh herbs, cilantro, parsley, and dill
 *   ▢ optional rice for serving
 
 Vinaigrette
 
-*   ▢ 1/3 cup extra virgin olive oil
+*   ▢ 0.33 cup extra virgin olive oil
 *   ▢ 2 tbsps lemon juice
 *   ▢ 1 tbsp champagne vinegar
 *   ▢ 2 tsps honey

@@ -7,7 +7,7 @@ ingredients:
     quantity: "1"
     unit: "small"
   - name: "Zesty Italian Dressing"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "cup"
   - name: "ground beef"
     quantity: "1"
@@ -22,10 +22,10 @@ ingredients:
     quantity: "2"
     unit: "Tbsp."
   - name: "spaghetti, uncooked"
-    quantity: "¾"
+    quantity: "0.75"
     unit: "lb."
   - name: "Grated Parmesan Cheese"
-    quantity: "1/4"
+    quantity: "0.25"
     unit: "cup"
 
 ---

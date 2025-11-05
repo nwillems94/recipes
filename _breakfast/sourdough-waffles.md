@@ -19,7 +19,7 @@ ingredients:
     quantity: "2"
     unit: "tsps"
   - name: "salt"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
   - name: "butter, melted"
     quantity: "2"

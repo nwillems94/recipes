@@ -13,7 +13,7 @@ ingredients:
     quantity: "2"
     unit: "cloves"
   - name: "Sichuan peppercorns, ground"
-    quantity: "½"
+    quantity: "0.5"
     unit: "tsp"
   - name: "fermented black beans (douchi)"
     quantity: "2"

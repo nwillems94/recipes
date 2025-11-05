@@ -13,7 +13,7 @@ ingredients:
     quantity: "2"
     unit: "cloves"
   - name: "sectioned into 6 (remove fat and skin)"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "chicken,"
   - name: "berbere"
     quantity: "3"

@@ -19,10 +19,10 @@ ingredients:
     quantity: "1"
     unit: "tsp"
   - name: "balsamic vinegar"
-    quantity: "1/3"
+    quantity: "0.33"
     unit: "cup"
   - name: "extra virgin olive oil"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "cup"
 
 ---
