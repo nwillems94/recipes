@@ -11,7 +11,7 @@ layout: post
 
 <ul id="ingredientList">
   {% for ingredient in page.ingredients %}
-    <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}">
+    <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
     <code>{{ ingredient.quantity }}</code> {{ ingredient.unit }} {{ ingredient.name }}
     </li>
   {% endfor %}
@@ -28,10 +28,10 @@ layout: post
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
       const baseQty = parseFloat(item.getAttribute('data-quantity'));
+      const unit = item.getAttribute('data-unit');
+      const name = item.getAttribute('data-name');
       const newQty = (baseQty / defaultServings) * newServings;
-
-      const regex = new RegExp(baseQty.toString().replace('.', '\\.'), ''); // escape dot for decimal
-      item.textContent = item.textContent.replace(regex, newQty.toFixed(2));
+      item.textContent = `${newQty.toFixed(2)} ${unit} ${name}`;
     });
   }
 </script>
