@@ -28,11 +28,13 @@ layout: post
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
       const baseQty = parseFloat(item.getAttribute('data-quantity'));
+      const unit = item.getAttribute('data-unit');
+      const name = item.getAttribute('data-name');
       const newQty = (baseQty / defaultServings) * newServings;
 
       // Format quantity as integer if possible
       const formattedQty = Number.isInteger(newQty) ? newQty.toString() : newQty.toFixed(2);
-      item.querySelector('code').textContent = formattedQty;
+      item.innerHTML = `<code>${formattedQty}</code> ${unit} ${name}`;
     });
   }
 </script>
