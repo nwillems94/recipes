@@ -34,7 +34,7 @@ layout: post
 
       // Format quantity as integer if possible
     //   const formattedQty = Number.isInteger(newQty) ? newQty.toString() : newQty.toFixed(2);
-      item.innerHTML = `<code>${newQty}</code> ${unit} ${name}`;
+      item.textContent = `\`${newQty}\` ${unit} ${name}`;
     });
   }
 </script>
