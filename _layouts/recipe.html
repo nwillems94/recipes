@@ -31,7 +31,7 @@ layout: post
       const unit = item.getAttribute('data-unit');
       const name = item.getAttribute('data-name');
       const newQty = (baseQty / defaultServings) * newServings;
-      item.textContent = `<code>$${newQty.toFixed(2)}</code>$ ${unit} ${name}`;
+      item.textContent = `<code>${newQty.toFixed(2)}</code> ${unit} ${name}`;
     });
   }
 </script>
