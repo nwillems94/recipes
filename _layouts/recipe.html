@@ -11,7 +11,7 @@ layout: post
 
 <ul id="ingredientList">
   {% for ingredient in page.ingredients %}
-    <li>
+    <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
     <code>{{ ingredient.quantity }}</code> {{ ingredient.unit }} {{ ingredient.name }}
     </li>
   {% endfor %}
