@@ -29,7 +29,9 @@ layout: post
     document.querySelectorAll('#ingredientList li').forEach(item => {
       const baseQty = parseFloat(item.getAttribute('data-quantity'));
       const newQty = (baseQty / defaultServings) * newServings;
-      item.setAttribute('data-quantity', newQty.toFixed(2));
+
+      const regex = new RegExp(baseQty.toString().replace('.', '\\.'), ''); // escape dot for decimal
+      item.textContent = item.textContent.replace(regex, newQty.toFixed(2));
     });
   }
 </script>
