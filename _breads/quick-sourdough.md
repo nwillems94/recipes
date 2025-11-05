@@ -1,22 +1,25 @@
 ---
-title: "Bread - overnight sourdough"
+title: "Quick sourdough"
 layout: recipe
-servings: "2"
+servings: "1"
 ingredients:
   - name: "AP flour"
     quantity: "300"
     unit: "g"
-  - name: "whole wheat flour"
+  - name: "semolina flour"
     quantity: "100"
     unit: "g"
   - name: "sourdough starter"
     quantity: "200"
     unit: "g"
+  - name: "yeast"
+    quantity: "3"
+    unit: "g"
   - name: "salt"
     quantity: "10"
     unit: "g"
   - name: "water"
-    quantity: "260"
+    quantity: "240"
     unit: "g"
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Biga bread"
 layout: recipe
-servings: "2"
+servings: "1"
 ingredients:
   - name: "white flour"
     quantity: "400"

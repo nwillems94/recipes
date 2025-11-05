@@ -1,7 +1,7 @@
 ---
 title: "Prosciutto Bread"
 layout: recipe
-servings: "2"
+servings: "1"
 ingredients:
   - name: "bread flour"
     quantity: "12"

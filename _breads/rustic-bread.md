@@ -1,7 +1,7 @@
 ---
 title: "Rustic Bread"
 layout: recipe
-servings: "2"
+servings: "1"
 ingredients:
   - name: "whole wheat flour"
     quantity: "1"

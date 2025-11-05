@@ -1,7 +1,7 @@
 ---
-title: "Bread - High hydration"
+title: "High hydration bread"
 layout: recipe
-servings: "2"
+servings: "1"
 ingredients:
   - name: "(300 g) bread flour"
     quantity: "2"

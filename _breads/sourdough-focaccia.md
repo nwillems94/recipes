@@ -1,7 +1,7 @@
 ---
 title: "Sourdough focaccia"
 layout: recipe
-servings: "2"
+servings: "1"
 ingredients:
   - name: "starter"
     quantity: "150"

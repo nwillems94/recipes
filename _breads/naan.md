@@ -15,9 +15,9 @@ ingredients:
   - name: "warm water"
     quantity: "0.75"
     unit: "cup"
-  - name: "2 tbsps unsalted butter, melted"
-    quantity: "1"
-    unit: "to"
+  - name: "unsalted butter, melted"
+    quantity: "1.5"
+    unit: "tbsps"
 
 ---
 
