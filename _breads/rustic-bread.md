@@ -15,9 +15,9 @@ ingredients:
   - name: "salt"
     quantity: "1"
     unit: "tsp"
-  - name: "cups water"
-    quantity: "1"
-    unit: "1/3"
+  - name: "water"
+    quantity: "cups"
+    unit: "1.33"
 
 ---
 For the poolish - combine 2/3 cup room temperature water, whole wheat flour, & a pinch of yeast. Stir to combine and, leave at room temp for 12-24 hrs
