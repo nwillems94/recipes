@@ -6,4 +6,4 @@ ingredients:
 
 ---
 
-
+![Opa's recipe](../assets/images/advokaat.jpg)

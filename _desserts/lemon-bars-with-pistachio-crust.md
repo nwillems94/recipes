@@ -5,6 +5,6 @@ servings: "2"
 ingredients:
 
 ---
-*
 
+![Recipe](../assets/images/lemon_bars.jpg)
 
