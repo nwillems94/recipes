@@ -39,7 +39,10 @@ layout: post
       const name = item.getAttribute('data-name');
       const newQty = (baseQty / defaultServings) * newServings;
 
-      item.querySelector('.qty').textContent = formatQuantity(newQty);
+      const qtySpan = item.querySelector('.qty');
+      if (qtySpan) {
+        item.querySelector('.qty').textContent = formatQuantity(newQty);
+      }
     });
   }
 </script>
