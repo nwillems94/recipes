@@ -24,6 +24,13 @@ layout: post
 <script>
   const defaultServings = parseFloat("{{ page.servings }}");
 
+  function formatQuantity(qty) {
+    const rounded = Math.round(qty * 100) / 100;
+    return Number.isInteger(rounded)
+      ? rounded.toString()
+      : rounded.toFixed(2).replace(/\.?0+$/, '');
+  }
+
   function updateIngredients() {
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
@@ -34,7 +41,7 @@ layout: post
 
       const qtySpan = item.querySelector('.qty');
       if (qtySpan) {
-        qtySpan.textContent = Number.isInteger(newQty) ? newQty : newQty.toFixed(2);
+        qtySpan.textContent = formatQuantity(newQty);
       }
     });
   }
