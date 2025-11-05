@@ -33,8 +33,8 @@ layout: post
       const newQty = (baseQty / defaultServings) * newServings;
 
       // Format quantity as integer if possible
-      const formattedQty = Number.isInteger(newQty) ? newQty.toString() : newQty.toFixed(2);
-      item.innerHTML = `<code>${formattedQty}</code> ${unit} ${name}`;
+    //   const formattedQty = Number.isInteger(newQty) ? newQty.toString() : newQty.toFixed(2);
+      item.innerHTML = `<code>${newQty}</code> ${unit} ${name}`;
     });
   }
 </script>
