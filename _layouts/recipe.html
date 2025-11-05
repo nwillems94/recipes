@@ -12,7 +12,7 @@ layout: post
 <ul id="ingredientList">
   {% for ingredient in page.ingredients %}
     <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
-    <code>{{ ingredient.quantity }}</code> {{ ingredient.unit }} {{ ingredient.name }}
+    <code><span class="qty">{{ ingredient.quantity }}</span></code> {{ ingredient.unit }} {{ ingredient.name }}
     </li>
   {% endfor %}
 </ul>
@@ -32,9 +32,10 @@ layout: post
       const name = item.getAttribute('data-name');
       const newQty = (baseQty / defaultServings) * newServings;
 
-      // Format quantity as integer if possible
-    //   const formattedQty = Number.isInteger(newQty) ? newQty.toString() : newQty.toFixed(2);
-      item.textContent = `${newQty.toFixed(2)} ${unit} ${name}`;
+      const qtySpan = item.querySelector('.qty');
+      if (qtySpan) {
+        qtySpan.textContent = Number.isInteger(newQty) ? newQty : newQty.toFixed(2);
+      }
     });
   }
 </script>
