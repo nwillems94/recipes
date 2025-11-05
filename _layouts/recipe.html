@@ -28,10 +28,8 @@ layout: post
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
       const baseQty = parseFloat(item.getAttribute('data-quantity'));
-      const unit = item.getAttribute('data-unit');
-      const name = item.textContent.split(':')[0];
       const newQty = (baseQty / defaultServings) * newServings;
-      item.textContent = `${newQty.toFixed(2)} ${unit} ${name}`;
+      item.setAttribute('data-quantity', newQty.toFixed(2));
     });
   }
 </script>
