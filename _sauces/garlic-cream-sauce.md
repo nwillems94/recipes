@@ -6,4 +6,3 @@ ingredients:
 
 ---
 <https://www.littlebroken.com/garlic-cream-sauce/>
-
