@@ -52,7 +52,7 @@ def update_file(filepath, url, data):
 
     new_yaml = "---\n"
     new_yaml += f"title: {yaml_dict.get('title', data.get('title', 'Untitled'))}\n"
-    new_yaml += f"layout: \"{yaml_dict.get('layout', 'recipe')}\"\n"
+    new_yaml += f"layout: {yaml_dict.get('layout', 'recipe')}\n"
     new_yaml += f"servings: \"{data.get('servings', '2')}\"\n"
     new_yaml += "ingredients:\n" + format_ingredient_yaml(data["ingredients"]) + "\n"
     new_yaml += "---\n\n"

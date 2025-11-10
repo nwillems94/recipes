@@ -52,6 +52,7 @@ jobs:
 
       - name: Commit to review branch
         run: |
+          rm filtered_links.py
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git checkout -B scraped-recipes
@@ -63,3 +64,5 @@ jobs:
             git commit -m "Scraped recipe data and updated files"
             git push origin scraped-recipes --force
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

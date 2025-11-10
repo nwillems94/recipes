@@ -27,7 +27,6 @@ ingredients:
 <https://www.seriouseats.com/recipes/2009/04/grilling-tomatillo-salsa-recipe.html>
 
 
-
 Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread coals out evenly over the charcoal grate. Clean and lightly oil the cooking grate. 
 
 Place tomatillo halves on the grill, cut side down. Grill until browned and they begin to soften. Flip and continue to cook until completely softened. Remove the tomatillos to the work bowl of a blender or food processor. Let cool to room temperature.
