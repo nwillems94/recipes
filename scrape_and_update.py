@@ -14,7 +14,7 @@ def scrape_recipe(url):
             scraper = scrape_me(url)
         else:
             html = urlopen(url).read().decode("utf-8")
-            scraper = scrape_html(html, wild_mode=True)
+            scraper = scrape_html(html, url, wild_mode=True)
 
         return {
             "title": scraper.title(),
@@ -28,12 +28,18 @@ def scrape_recipe(url):
 
 def format_ingredient_yaml(ingredients):
     def parse_ingredient(text):
+        text = re.sub(r"\bounce\b", "oz", text, flags=re.IGNORECASE)
+        text = re.sub(r"\btablespoon\b", "tbsp", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bteaspoon\b", "tsp", text, flags=re.IGNORECASE)
+
         match = re.match(r"(?i)([\d\s/.]+)\s+(\w+)\s+(.*)", text)
         if match:
             quantity, unit, name = match.groups()
         else:
             quantity, unit, name = "", "", text
+
         return f"  - name: \"{name.strip()}\"\n    quantity: \"{quantity}\"\n    unit: \"{unit}\""
+
     return "\n".join(parse_ingredient(i) for i in ingredients)
 
 def update_file(filepath, url, data):

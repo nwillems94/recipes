@@ -25,4 +25,3 @@ Remove and discard onion.
 
 Finished sauce can be frozen in an airtight, freezer-safe container for up to 1 month. Be sure to remove and discard the onion before freezing.
 
-
