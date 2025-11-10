@@ -1,0 +1,63 @@
+name: Scrape Recipes
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install recipe-scrapers
+
+      - name: Identify valid recipe files
+        run: |
+          FILES=$(ls **/**.md)
+          echo "LINKS_BY_FILE = {" > filtered_links.py
+          for file in $FILES; do
+            # Extract non-YAML body (everything after second --- except empty lines)
+            body=$(awk 'f{print} /^---/{c++} c==2{f=1}' "$file" | sed '/^$/d')
+
+            # make sure there nothing besides the link
+            if [[ -n "${body//\<*\>/}" ]]; then
+              continue
+            fi
+
+            link=$(echo $body | sed 's/[<>]//g')
+            
+            # validate link (excluding YouTube/Instagram) and write to file
+            if [[ "$link" =~ ^https?:// ]] && [[ ! "$link" =~ youtube\.com ]] && [[ ! "$link" =~ instagram\.com ]]; then
+                echo "    \"$file\": \"$link\"," >> filtered_links.py
+            fi
+          done
+          echo "}" >> filtered_links.py
+
+      - name: Scrape and update files
+        run: |
+          python scrape_and_update.py
+
+      - name: Commit to review branch
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git checkout -B scraped-recipes
+          git add .
+          # Only commit and push if there are staged changes. 
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Scraped recipe data and updated files"
+            git push origin scraped-recipes --force
+          fi
