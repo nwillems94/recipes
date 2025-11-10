@@ -20,9 +20,9 @@ ingredients:
     unit: "1.33"
 
 ---
-For the poolish - combine 2/3 cup room temperature water, whole wheat flour, & a pinch of yeast. Stir to combine and, leave at room temp for 12-24 hrs
+For the poolish - combine whole wheat flour & pinch of yeast with half the water at room temperature. Stir to combine and, leave at room temp for 12-24 hrs.
 
-Combine the poolish with the remaining 2/3 cups of warm water & yeast. 
+Combine the poolish with the remaining warm water & yeast. 
 
 Add salt & 1 cup bread flour and combine into a shaggy dough. Let hydrate for 20 minutes
 

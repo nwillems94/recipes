@@ -30,6 +30,9 @@ ingredients:
   - name: "yogurt"
     quantity: "0.5"
     unit: "cup"
+  - name: "milk"
+    quantity: "0.75"
+    unit: "cup"
   - name: "cashews"
     quantity: "0.25"
     unit: "cup"
@@ -38,9 +41,9 @@ ingredients:
     unit: "tbsp"
 
 ---
-Combine dry ingredients in a large bowl and add the mashed banana and ¼ cup of milk.
+Combine dry ingredients in a large bowl and add the mashed banana and a third the of milk.
 
-Place the dates, 0.5 cup of warm milk, and vanilla extract in a food processor. Let soak, then blend until smooth. 
+Place the dates, remaining milk (warmed), and vanilla extract in a food processor. Let soak, then blend until smooth. 
 
 Move half of the blended mixture to the bowl with the dry ingredients and combine. Place in a baking dish and bake at 350 for 25 minutes. 
 

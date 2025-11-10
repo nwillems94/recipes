@@ -28,17 +28,15 @@ ingredients:
     quantity: "0.33"
     unit: "tsp"
   - name: "black pepper"
-    quantity: ""
+    quantity: "1"
     unit: "Pinch"
   - name: "cayenne pepper"
-    quantity: ""
+    quantity: "1"
     unit: "Pinch"
   - name: "of ground cardamom"
-    quantity: ""
+    quantity: "1"
     unit: "Pinch"
-  - name: "oil for frying (grapeseed, sunflower, avocado, canola, peanut)"
-    quantity: ""
-    unit: "Vegetable"
+  - name: "Vegetable oil for frying (grapeseed, sunflower, avocado, canola, peanut)"
 
 ---
 Pour the chickpeas into a large bowl and cover them by about 3 inches of cold water. Let them soak overnight. They will double in size as they soak

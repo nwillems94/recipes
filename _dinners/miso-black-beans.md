@@ -23,7 +23,7 @@ ingredients:
     unit: "tbsp"
   - name: "mushrooms, chopped"
     quantity: "250"
-    unit: "gr"
+    unit: "g"
   - name: "black beans, drained"
     quantity: "2"
     unit: "cans"

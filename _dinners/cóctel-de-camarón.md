@@ -30,9 +30,7 @@ ingredients:
   - name: "chopped fresh cilantro"
     quantity: "0.25"
     unit: "cup"
-  - name: ""
-    quantity: ""
-    unit: "Saltines"
+  - name: "Saltines"
 
 ---
 Bring 3 cups water to boil in large saucepan over high heat. Stir in shrimp and 1 tbsp salt. Cover and let stand off heat until shrimp are opaque, about 5 minutes, shaking saucepan halfway through. Fill large bowl halfway with ice and water. Transfer shrimp to ice bath and let cool for 3 to 5 minutes. Once cool, cut each shrimp crosswise into 3 pieces.

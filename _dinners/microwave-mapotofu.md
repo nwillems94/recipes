@@ -28,10 +28,13 @@ ingredients:
     quantity: "400"
     unit: "g"
   - name: "stock"
-    quantity: "⅔"
+    quantity: "0.66"
     unit: "cup"
-  - name: "soy sauce + 2 tsps cornstarch"
+  - name: "soy sauce"
     quantity: "2"
+    unit: "tsps"
+  - name: "cornstarch"
+    quantity: "2 "
     unit: "tsps"
 
 ---

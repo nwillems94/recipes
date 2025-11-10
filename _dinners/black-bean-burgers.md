@@ -1,7 +1,7 @@
 ---
 title: "Black bean burgers"
 layout: recipe
-servings: "12"
+servings: "8"
 ingredients:
   - name: "black beans, rinsed and drained"
     quantity: "2"
@@ -51,7 +51,7 @@ When beans are slightly cooled, transfer to food processor. Add cheese. Pulse un
 
 Add mayonnaise, egg, and breadcrumbs and season with salt and pepper. Fold together gently but thoroughly with hands. Patty mixture can be stored in an airtight container in the refrigerator for up to three days at this stage.
 
-Form bean mixture into 6 to 8 patties as wide as your burger buns. Heat 1 tbsp oil in a large non-stick or cast iron skillet over medium heat until shimmering. Add 4 patties and cook, swirling pan occasionally, until well browned and crisp on first side, about 5 minutes. Carefully flip and cook until second side is browned, about 5 minutes longer, adding cheese if desired. If cooking more than 4 burgers, cook in batches, keeping cooked burgers on a rack set in a rimmed baking sheet in a 200°F oven while second batch cooks.
+Form bean mixture into patties as wide as your burger buns. Heat 1 tbsp oil in a large non-stick or cast iron skillet over medium heat until shimmering. Add 4 patties and cook, swirling pan occasionally, until well browned and crisp on first side, about 5 minutes. Carefully flip and cook until second side is browned, about 5 minutes longer, adding cheese if desired. If cooking more than 4 burgers, cook in batches, keeping cooked burgers on a rack set in a rimmed baking sheet in a 200°F oven while second batch cooks.
 
 Spread top and bottom buns with chipotle mayonnaise or other condiments as desired. Add toppings to top or bottom bun as desired. Place patties on bottom buns, close burgers, and serve immediately.
 

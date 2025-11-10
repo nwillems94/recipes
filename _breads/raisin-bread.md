@@ -4,9 +4,9 @@ layout: recipe
 servings: "1"
 ingredients:
   - name: "bread flour"
-    quantity: "~1.25"
+    quantity: "1.25"
     unit: "cup"
-  - name: "flour"
+  - name: "AP flour"
     quantity: "1"
     unit: "cup"
   - name: "yeast"
@@ -26,7 +26,7 @@ ingredients:
     unit: "egg"
 
 ---
-Combine 1 cup flour, 1 cup bread flour, yeast, & salt and stir to combine
+Combine AP flour, bread flour, yeast, & salt and stir to combine
 
 Heat milk to lukewarm. Add and whisk egg
 

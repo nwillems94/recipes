@@ -10,7 +10,7 @@ ingredients:
     quantity: "2"
     unit: "avocados,"
   - name: "flour tortillas"
-    quantity: "4-6"
+    quantity: "4"
     unit: "large"
   - name: "rice, cooked"
     quantity: "1"

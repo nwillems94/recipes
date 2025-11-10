@@ -22,7 +22,7 @@ ingredients:
     quantity: "1.25"
     unit: "cup"
   - name: "vegetable oil"
-    quantity: "2/3"
+    quantity: "0.66"
     unit: "cup"
   - name: "eggs"
     quantity: "2"

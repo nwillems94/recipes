@@ -24,9 +24,7 @@ ingredients:
   - name: "lemon juice"
     quantity: "1"
     unit: "tsp"
-  - name: "leaves, optional, for serving"
-    quantity: ""
-    unit: "lettuce"
+  - name: "lettuce leaves, optional, for serving"
 
 ---
 <https://downshiftology.com/recipes/avocado-egg-salad/>

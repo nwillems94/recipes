@@ -1,21 +1,35 @@
 ---
-title: "Wonton"
+title: "Linda's Wonton meet (meat)"
 layout: recipe
-servings: "2"
+servings: "6"
 ingredients:
-
+  - name: "ground pork"
+    quantity: "1"
+    unit: "kg"
+  - name: "large eggs"
+    quantity: "2"
+  - name: "shrimp shelled and semi-finely chopped"
+    quantity: "250"
+    unit: "g"
+  - name: "sugar"
+    quantity: "1"
+    unit: "tsp"
+  - name: "white ground pepper"
+    quantity: "1"
+    unit: "tsp"
+  - name: "green onions, minced"
+    quantity: "3"
+    unit: "stalks"
+  - name: "minced ginger"
+    quantity: "1"
+    unit: "tbsp"
+  - name: "wonton skins (Shanghai style)"
+    quantity: "1"
+    unit: "package"
 ---
-Wonton meet
 
-1kg meet
-2 large or 3 medium eggs (can take extra 1-2 yolk)
-250g shrimp (no shells, chopped semi-fine)
-Add above in a container, mix it well by stir in one direction,
-Add some cold water, little by little, (it should be 1:3 portion, 1 water:3 meet), stir with same direction until mixed well and sticky
-Add 1-2 tsps sugar and little bit 2tsps white ground pepper, minced green onions 3stalks and minced ginger tbsp, continue to stir until the meet sticky
-Take out wonton skin ( shanghai style) from refrigerator (if from freezer, it should be take out the night before)
-Use about 1 tsp mixed meet on the wonton skin, wrap it and use little water on the edge of the skin. Make sure stick together tightly. Put it on a tray. It can be boiled freshly or it can be frozen for the later
+Combine pork, shrimp, and egg in a bowl, mixing well by stirring in one direction. Begin slowly adding cold water, about 1 part water to 3 parts meat (by weight), while continuing to stir in the same direction until the mixture is well combined and sticky.
 
-6-8 servings
+Add sugar, pepper, green onions, and ginger. Continue to stir until the mixture becomes sticky again. 
 
-
+Remove wonton skins from refrigerator (if from freezer, take out the night before). Use about 1 tsp filling, wrap and use little water on the edge of the skin to seal tightly. Place on a sheet tray to boil immediately or freeze for later. 

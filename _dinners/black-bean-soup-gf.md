@@ -30,18 +30,10 @@ ingredients:
   - name: "chili powder"
     quantity: "1"
     unit: "tsp"
-  - name: "cream, for garnish"
-    quantity: ""
-    unit: "Sour"
-  - name: "avocado, for garnish"
-    quantity: ""
-    unit: "Sliced"
-  - name: "fresh cilantro, for garnish"
-    quantity: ""
-    unit: "Chopped"
-  - name: "wedges, for serving"
-    quantity: ""
-    unit: "Lime"
+  - name: "Sour cream, for garnish"
+  - name: "Sliced avocado, for garnish"
+  - name: "Chopped fresh cilantro, for garnish"
+  - name: "Lime wedges, for serving"
 
 ---
 <https://www.delish.com/cooking/recipe-ideas/recipes/a55504/easy-black-bean-soup-recipe/>

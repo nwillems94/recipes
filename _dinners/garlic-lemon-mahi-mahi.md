@@ -3,9 +3,9 @@ title: "Garlic lemon Mahi Mahi"
 layout: recipe
 servings: "2"
 ingredients:
-  - name: "mahi fillets"
+  - name: "mahi mahi"
     quantity: "4"
-    unit: "(4oz) mahi"
+    unit: "(4oz) fillets"
   - name: "asparagus, trimmed"
     quantity: "1"
     unit: "lb."

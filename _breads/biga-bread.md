@@ -8,7 +8,7 @@ ingredients:
     unit: "g"
   - name: "80°F water"
     quantity: "275"
-    unit: "g,"
+    unit: "g"
   - name: "yeast"
     quantity: "1"
     unit: "pinch"
@@ -26,9 +26,9 @@ ingredients:
     unit: "g,"
 
 ---
-For the biga, combine flour, yeast, and water in a large bowl and mix using the pincer method. Cover and leave over night at room temperature.
+For the biga, combine AP flour, half the yeast, and water in a large bowl and mix using the pincer method. Cover and leave over night at room temperature.
 
-The next morning, combine 100g bread flour, 11g salt, and 1g yeast in a new bowl. Add 100g of 105°F water and mix by hand.
+The next morning, combine bread flour, salt, and remaining yeast in a new bowl. Add 100g of 105°F water and mix by hand.
 
 Add the biga and mix using the pincer and folding method. Let the dough rest for 2.5 hours folding 2 times in the first half hour, then 2 more times at half hour intervals.
 

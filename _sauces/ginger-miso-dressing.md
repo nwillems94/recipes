@@ -16,8 +16,8 @@ ingredients:
     quantity: "55"
     unit: "g"
   - name: "of grated ginger"
-    quantity: ""
-    unit: "Sliver"
+    quantity: "1"
+    unit: "sliver"
 
 ---
 

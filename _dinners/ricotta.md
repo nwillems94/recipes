@@ -19,7 +19,7 @@ ingredients:
 ---
 In a saucepan, heat milk to 180F. 
 
-Turn off heat and add juice of 1 lemon juice and apple cider vinegar.
+Turn off heat and add lemon juice and apple cider vinegar.
 
 Let sit until curdles begin to form.
 

@@ -13,7 +13,7 @@ ingredients:
     quantity: "1.5"
     unit: "cups"
   - name: "all-purpose flour"
-    quantity: "⅓"
+    quantity: "0.33"
     unit: "cup"
   - name: "stock"
     quantity: "4"
@@ -37,14 +37,13 @@ ingredients:
     quantity: "1"
     unit: "garlic"
   - name: "fresh parsley"
-    quantity: "8-10"
+    quantity: "8"
     unit: "sprigs"
   - name: "fresh thyme"
-    quantity: "4-6"
+    quantity: "4"
     unit: "sprigs"
-  - name: "leaves"
+  - name: "bay leaves"
     quantity: "2"
-    unit: "bay"
 
 ---
 Add 3 tbsp of olive oil to a medium pot or Dutch oven. Heat over medium heat until shimmering, then add half of the mushrooms, half of the pearl onions, ½ tsp salt, ¼ tsp pepper. Stir to combine, then cover and cook until the mushrooms have released all of their liquid, 6-8 minutes. 
