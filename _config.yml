@@ -14,6 +14,7 @@ layouts_dir: _layouts
 # exclude working files and folders
 exclude:
   - generate_index.sh
+  - update-sw.sh
   - scrape_and_update.py
   - .github/
 
