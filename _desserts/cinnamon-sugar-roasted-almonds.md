@@ -3,9 +3,8 @@ title: "Cinnamon sugar roasted almonds"
 layout: recipe
 servings: "16"
 ingredients:
-  - name: "egg white"
+  - name: "large egg white"
     quantity: "1"
-    unit: "large"
   - name: "cold water"
     quantity: "1"
     unit: "tsp"

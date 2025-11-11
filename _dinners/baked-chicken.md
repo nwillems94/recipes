@@ -3,9 +3,8 @@ title: "Baked chicken"
 layout: recipe
 servings: "4"
 ingredients:
-  - name: "skinless chicken breasts, pounded to even thickness"
+  - name: "boneless skinless chicken breasts, pounded to even thickness"
     quantity: "4"
-    unit: "boneless"
   - name: "melted butter or olive oil"
     quantity: "1"
     unit: "tbsp"
@@ -13,13 +12,13 @@ ingredients:
     quantity: "1"
     unit: "tsp"
   - name: "freshly-ground black pepper"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
   - name: "garlic powder"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
   - name: "smoked paprika"
-    quantity: "1/2"
+    quantity: "0.5"
     unit: "tsp"
 ---
 
