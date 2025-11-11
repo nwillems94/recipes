@@ -2,6 +2,7 @@
 layout: home
 title: Recipe Index
 nav_exclude: true
+search_exclude: true
 ---
 
 <h1>Recipe Index</h1>
@@ -156,3 +157,15 @@ nav_exclude: true
     filterRecipes();
   }
 </script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    const swUrl = '{{ "/service-worker.js" | relative_url }}';
+    navigator.serviceWorker.register(swUrl).then(reg => {
+      console.log('Service worker registered.', reg);
+    }).catch(err => console.error('Service worker registration failed:', err));
+  });
+}
+</script>
+
