@@ -68,7 +68,9 @@ cat <<'EOF' >> "$INDEX_FILE"
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    const swUrl = '{{ "/service-worker.js" | relative_url }}';
+    // Register the site's service worker; use the project's sw.js file.
+    // Using the Jekyll `relative_url` filter so this resolves correctly on GitHub Pages.
+    const swUrl = '{{ "/sw.js" | relative_url }}';
     navigator.serviceWorker.register(swUrl).then(reg => {
       console.log('Service worker registered.', reg);
     }).catch(err => console.error('Service worker registration failed:', err));
