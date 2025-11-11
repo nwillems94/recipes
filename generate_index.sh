@@ -18,6 +18,9 @@ title: Recipe Index
 nav_exclude: true
 search_exclude: true
 ---
+<head>
+  <link rel="manifest" href="/recipes/manifest.webmanifest">
+</head>
 
 <h1>Recipe Index</h1>
 <div class="filter-group" id="letterButtons">
@@ -68,8 +71,6 @@ cat <<'EOF' >> "$INDEX_FILE"
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    // Register the site's service worker; use the project's sw.js file.
-    // Using the Jekyll `relative_url` filter so this resolves correctly on GitHub Pages.
     const swUrl = '{{ "/sw.js" | relative_url }}';
     navigator.serviceWorker.register(swUrl).then(reg => {
       console.log('Service worker registered.', reg);

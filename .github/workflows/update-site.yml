@@ -23,6 +23,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          VERSION=$(grep "var VERSION" sw.js | sed -E "s/.*'version_([0-9]+)'.*/\1/")
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add index.html sw.js
