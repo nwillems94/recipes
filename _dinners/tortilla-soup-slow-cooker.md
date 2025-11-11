@@ -1,10 +1,63 @@
 ---
 title: "Tortilla soup (slow cooker)"
 layout: recipe
-servings: "2"
+servings: "8"
 ingredients:
-
+  - name: "boneless, skinless chicken breasts, cut into strips"
+    quantity: "1"
+    unit: "lb"
+  - name: "1 (15 oz) can whole peeled tomatoes, mashed"
+    quantity: ""
+    unit: ""
+  - name: "1 (10 oz) can enchilada sauce"
+    quantity: ""
+    unit: ""
+  - name: "onion, chopped"
+    quantity: "1"
+    unit: "medium"
+  - name: "peppers, chopped"
+    quantity: "2"
+    unit: "banana"
+  - name: "garlic, minced"
+    quantity: "2"
+    unit: "cloves"
+  - name: "water"
+    quantity: "2"
+    unit: "cups"
+  - name: "1 (14.25 oz) can reduced-sodium chicken broth"
+    quantity: ""
+    unit: ""
+  - name: "cumin"
+    quantity: "1"
+    unit: "tsp"
+  - name: "chili powder"
+    quantity: "1"
+    unit: "tsp"
+  - name: "salt"
+    quantity: "1"
+    unit: "tsp"
+  - name: "ground black pepper"
+    quantity: "0.25"
+    unit: "tsp"
+  - name: "leaf"
+    quantity: "1"
+    unit: "bay"
+  - name: "1 (10 oz) package frozen corn"
+    quantity: ""
+    unit: ""
+  - name: "chopped cilantro"
+    quantity: "1"
+    unit: "tbsp"
+  - name: "tortillas"
+    quantity: "7"
+    unit: "corn"
+  - name: "vegetable cooking spray"
+    quantity: ""
+    unit: ""
 ---
+
+Place chicken, tomatoes, enchilada sauce, onion, banana peppers, and garlic into a slow cooker. Pour in water and chicken broth. Season with cumin, chili powder, salt, black pepper, and bay leaf. Stir in corn and cilantro. Cover and cook on Low for 6 to 8 hours or High for 3 to 4 hours.
+When the soup is almost finished, preheat the oven to 400 degrees F (200 degrees C). Lightly coat tortillas on both sides with cooking spray. Cut tortillas into strips, then spread on a baking sheet.
+Bake in the preheated oven until crisp, 10 to 15 minutes. Sprinkle tortilla strips over soup.
+
 <https://www.allrecipes.com/recipe/222096/healthier-slow-cooker-chicken-tortilla-soup/>
-
-

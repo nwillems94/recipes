@@ -1,10 +1,57 @@
 ---
 title: "Fall harvest salad"
 layout: recipe
-servings: "2"
+servings: "6"
 ingredients:
-
+  - name: "greens"
+    quantity: "5"
+    unit: "oz"
+  - name: "roasted butternut squash"
+    quantity: "1/2"
+    unit: "cup"
+  - name: "sliced green apple"
+    quantity: "1/2"
+    unit: "cup"
+  - name: "crumbled feta cheese"
+    quantity: "1/4"
+    unit: "cup"
+  - name: "thinly sliced radish"
+    quantity: "1/4"
+    unit: "cup"
+  - name: "chopped candied pecans"
+    quantity: "1/4"
+    unit: "cup"
+  - name: "bacon, sliced and cooked"
+    quantity: "4"
+    unit: "strips"
+  - name: "olive oil"
+    quantity: "1/2"
+    unit: "cup"
+  - name: "apple cider vinegar"
+    quantity: "1/4"
+    unit: "cup"
+  - name: "maple syrup"
+    quantity: "1/4"
+    unit: "cup"
+  - name: "garlic"
+    quantity: "2"
+    unit: "cloves"
+  - name: "whole grain dijon mustard"
+    quantity: "2"
+    unit: "tbsp"
+  - name: "lemon juice"
+    quantity: "1 1/2"
+    unit: "tbsp"
+  - name: "salt (plus more to taste)"
+    quantity: "1/2"
+    unit: "tsp"
+  - name: "pepper to taste"
+    quantity: ""
+    unit: ""
 ---
+
+Add all of the salad ingredients to a large serving bowl.
+Add all of the vinaigrette ingredients to a high-powered blender or food processor. Blend or pulse until smooth and creamy.
+Drizzle the vinaigrette over the salad, toss, and then serve. Enjoy!
+
 <https://allthehealthythings.com/fall-harvest-salad/>
-
-
