@@ -1,0 +1,21 @@
+{
+    "name": "Nick's Recipes",
+    "short_name": "GHPR",
+    "description": "PWA of Nick's recipe book",
+
+    "scope": "/recipes/",
+    "start_url": "/recipes/",
+
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+
+    "display": "standalone", 
+
+    "icons": [
+        {
+            "src": "/recipes/assets/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+        }
+    ]
+}

@@ -64,6 +64,18 @@ cat <<'EOF' >> "$INDEX_FILE"
     filterRecipes();
   }
 </script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    const swUrl = '{{ "/service-worker.js" | relative_url }}';
+    navigator.serviceWorker.register(swUrl).then(reg => {
+      console.log('Service worker registered.', reg);
+    }).catch(err => console.error('Service worker registration failed:', err));
+  });
+}
+</script>
+
 EOF
 
 echo "✅ index.html has been generated with active filter highlighting."
