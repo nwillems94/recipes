@@ -4,7 +4,7 @@ INDEX_FILE="index.html"
 declare -A letter_map
 
 # Collect recipe data
-for file in $(ls ls _*/*.md | sort); do
+for file in $(ls _*/*.md | sort); do
   name="$(basename "$file" .md)"
   letter="${name:0:1}"
   letter_map["$letter"]=1
@@ -18,9 +18,6 @@ title: Recipe Index
 nav_exclude: true
 search_exclude: true
 ---
-<head>
-  <link rel="manifest" href="/recipes/manifest.webmanifest">
-</head>
 
 <h1>Recipe Index</h1>
 <div class="filter-group" id="letterButtons">
@@ -34,7 +31,7 @@ done
 
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
-for file in $(ls ls _*/*.md | sort); do
+for file in $(ls _*/*.md | sort); do
   name="$(basename "$file" .md)"
   path="${file:1:-2}html"
   display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
