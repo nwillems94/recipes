@@ -26,7 +26,7 @@ jobs:
 
       - name: Identify valid recipe files
         run: |
-          FILES=$(git diff --name-only HEAD~1 HEAD | xargs)
+          FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '\.md$')
           echo "LINKS_BY_FILE = {" > filtered_links.py
           for file in $FILES; do
             # Extract non-YAML body (everything after second --- except empty lines)
