@@ -1,10 +1,72 @@
 ---
 title: "Spicy shrimp tacos"
 layout: recipe
-servings: "2"
+servings: "4"
 ingredients:
-
+  - name: "medium shrimp, peeled and deveined"
+    quantity: "1"
+    unit: "lb"
+  - name: "olive oil"
+    quantity: "1.5"
+    unit: "tbsp"
+  - name: "garlic, minced"
+    quantity: "1"
+    unit: "clove"
+  - name: "ground cumin"
+    quantity: "0.5"
+    unit: "tsp"
+  - name: "chili powder"
+    quantity: "0.5"
+    unit: "tsp"
+  - name: "onion powder (optional)"
+    quantity: "0.25"
+    unit: "tsp"
+  - name: "kosher salt"
+    quantity: "0.25"
+    unit: "tsp"
+  - name: "olive oil"
+    quantity: "1"
+    unit: "tbsp"
+  - name: "squeeze of lime (optional)"
+    quantity: ""
+    unit: ""
+  - name: "tomato, seeded and chopped"
+    quantity: "1"
+  - name: "avocado cut into chunks"
+    quantity: "1"
+  - name: "jalapeno, seeded and chopped"
+    quantity: "1"
+  - name: "salt"
+    quantity: "0.5"
+    unit: "tsp"
+  - name: "black pepper"
+    quantity: "0.25"
+    unit: "tsp"
+  - name: "fresh lime juice"
+    quantity: "1"
+    unit: "tbsp"
+  - name: "loosely packed fresh cilantro leaves, coarsely chopped"
+    quantity: "0.25"
+    unit: "cup"
+  - name: "sour cream"
+    quantity: "0.25"
+    unit: "cup"
+  - name: "finely chopped cilantro"
+    quantity: "2"
+    unit: "tbsps"
+  - name: "fresh lime juice"
+    quantity: "1"
+    unit: "tbsp"
+  - name: "flour tortillas (corn tortillas can also be used)"
+    quantity: "8"
+    unit: "small"
 ---
+
+To cook the shrimp
+In a medium bowl whisk together olive oil, garlic, cumin, chili and onion powders, and salt. Add in shrimp and toss to coat completely. Cover and refrigerate for at least 10 minutes or up to 24 hours. Heat a large heavy-duty or cast iron skillet on high heat for 2 minutes. Add the olive oil and shrimp. Cook shrimp in a skillet over medium-high heat until pink and cooked through, about 5 minutes. Turn off heat and finish with a squeeze of lime (optional).
+To make salsa
+Combine tomato, avocado, jalapeno, salt, pepper, lime juice, and cilantro in a small bowl and stir to combine. Set aside. (If not using right away, place a piece of plastic wrap inside the bowl and directly over salsa to prevent discoloration and refrigerate.)
+To assemble
+Stir the sour-cream with cilantro and lime juice in a small bowl; set aside. Grill tortillas on stovetop over the flame until lightly charred (this step is optional). Spoon avocado salsa generously over warm tortillas, then top with 3 shrimp and drizzle with sour cream sauce. Serve tacos with lime wedges on the side. Enjoy!!
+
 <https://gimmedelicious.com/spicy-shrimp-tacos-with-avocado-salsa-sour-cream-cilantro-sauce/>
-
-
