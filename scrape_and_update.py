@@ -28,9 +28,10 @@ def scrape_recipe(url):
 
 def format_ingredient_yaml(ingredients):
     def parse_ingredient(text):
-        text = re.sub(r"\bounce\b", "oz", text, flags=re.IGNORECASE)
-        text = re.sub(r"\btablespoon\b", "tbsp", text, flags=re.IGNORECASE)
-        text = re.sub(r"\bteaspoon\b", "tsp", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bpound(s?)\b", r"lb\1", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bounce(s?)\b", r"oz\1", text, flags=re.IGNORECASE)
+        text = re.sub(r"\btablespoon(s?)\b", r"tbsp\1", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bteaspoon(s?)\b", r"tsp\1", text, flags=re.IGNORECASE)
 
         match = re.match(r"(?i)([\d\s/.]+)\s+(\w+)\s+(.*)", text)
         if match:

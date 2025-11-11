@@ -36,4 +36,3 @@ Refrigerate for at least 30 minutes to an hour. Prior to serving, sprinkle a lit
 
 <https://about.kaiserpermanente.org/total-health/food-for-health/recipes/instant-chocolate-pudding?cat=2c_recipe>
 
-

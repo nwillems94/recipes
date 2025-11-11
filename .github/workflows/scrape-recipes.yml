@@ -26,7 +26,7 @@ jobs:
 
       - name: Identify valid recipe files
         run: |
-          FILES=$(git diff --name-only HEAD~1 HEAD | xargs)
+          FILES=$(ls **/**.md)
           echo "LINKS_BY_FILE = {" > filtered_links.py
           for file in $FILES; do
             # Extract non-YAML body (everything after second --- except empty lines)
@@ -56,7 +56,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git checkout -B scraped-recipes
-          git add .
+          git add **/*.md
           # Only commit and push if there are staged changes. 
           if git diff --cached --quiet; then
             echo "No changes to commit"
