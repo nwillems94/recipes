@@ -38,9 +38,6 @@ layout: post
       const unit = item.getAttribute('data-unit');
       const name = item.getAttribute('data-name');
 
-      // If there's no numeric base quantity, skip scaling for this ingredient.
-      if (isNaN(baseQty)) return;
-
       const newQty = (baseQty / defaultServings) * newServings;
 
       const qtySpan = item.querySelector('.qty');
