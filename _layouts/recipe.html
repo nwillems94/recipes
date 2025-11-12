@@ -11,15 +11,8 @@ layout: post
 
 <ul id="ingredientList">
   {% for ingredient in page.ingredients %}
-    <li
-      {% if ingredient.quantity %} data-quantity="{{ ingredient.quantity }}"{% endif %}
-      {% if ingredient.unit %} data-unit="{{ ingredient.unit }}"{% endif %}
-      {% if ingredient.name %} data-name="{{ ingredient.name }}"{% endif %}
-    >
-      {% if ingredient.quantity %}
-        <code><span class="qty">{{ ingredient.quantity }}</span></code>
-      {% endif %}
-      {{ ingredient.unit }} {{ ingredient.name }}
+    <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
+    {% if ingredient.quantity %}<code><span class="qty">{{ ingredient.quantity }}</span></code>{% endif %} {{ ingredient.unit }} {{ ingredient.name }}
     </li>
   {% endfor %}
 </ul>
