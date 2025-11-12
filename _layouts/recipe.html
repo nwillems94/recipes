@@ -12,7 +12,7 @@ layout: post
 <ul id="ingredientList">
   {% for ingredient in page.ingredients %}
     <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
-    <code><span class="qty">{{ ingredient.quantity }}</span></code> {{ ingredient.unit }} {{ ingredient.name }}
+    {% if ingredient.quantity %}<code><span class="qty">{{ ingredient.quantity }}</span></code>{% endif %} {{ ingredient.unit }} {{ ingredient.name }}
     </li>
   {% endfor %}
 </ul>
@@ -37,6 +37,7 @@ layout: post
       const baseQty = parseFloat(item.getAttribute('data-quantity'));
       const unit = item.getAttribute('data-unit');
       const name = item.getAttribute('data-name');
+
       const newQty = (baseQty / defaultServings) * newServings;
 
       const qtySpan = item.querySelector('.qty');
