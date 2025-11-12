@@ -13,8 +13,8 @@ VERSION="version_${NEW_VERSION}"
 # Generate new URL list
 URLS=()
 while IFS= read -r file; do
-    html_path="${GHPATH}/${file%.md}.html"
-    URLS+=("  \"${html_path}\"")
+    html_path="${file%.md}.html"
+    URLS+=("  \"${GHPATH}/${html_path#_}\"")
 done < <(find _breakfast _breads _dinners _sauces _desserts _cocktails -name '*.md')
 
 # Format URLS block
