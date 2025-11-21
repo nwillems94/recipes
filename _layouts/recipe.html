@@ -4,18 +4,25 @@ layout: post
 
 <h1>{{ page.title }}</h1>
 
-<h2>Ingredients</h2>
+<div class="recipe-card">
+  <h2>Ingredients</h2>
 
-<label for="servings">Servings:</label>
-<input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
+  <label for="servings">Servings:</label>
+  <input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
 
-<ul id="ingredientList">
-  {% for ingredient in page.ingredients %}
-    <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
-    {% if ingredient.quantity %}<code><span class="qty">{{ ingredient.quantity }}</span></code>{% endif %} {{ ingredient.unit }} {{ ingredient.name }}
-    </li>
-  {% endfor %}
-</ul>
+  <ul id="ingredientList" class="ingredients">
+    {% for ingredient in page.ingredients %}
+      <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
+        {% if ingredient.quantity %}
+          <span class="qty">{{ ingredient.quantity }}</span>
+        {% endif %}
+        {{ ingredient.unit }} {{ ingredient.name }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p>{{ content }}</p>
+</div>
 
 <hr>
 
@@ -35,14 +42,11 @@ layout: post
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
       const baseQty = parseFloat(item.getAttribute('data-quantity'));
-      const unit = item.getAttribute('data-unit');
-      const name = item.getAttribute('data-name');
-
       const newQty = (baseQty / defaultServings) * newServings;
 
       const qtySpan = item.querySelector('.qty');
       if (qtySpan) {
-        item.querySelector('.qty').textContent = formatQuantity(newQty);
+        qtySpan.textContent = formatQuantity(newQty);
       }
     });
   }

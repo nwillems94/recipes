@@ -1,0 +1,64 @@
+/* === Custom Styles === */
+
+* {
+  border: none !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Merriweather", Georgia, serif;
+}
+
+h1 {
+  border-bottom: 1px solid #e67e22 !important;
+  padding-bottom: 0.2rem;
+}
+
+
+/* Navigation sidebar */
+.side-bar {
+  border-right: 2px solid #31343f !important;
+  border-radius: 20px;
+}
+
+.site-nav {
+    padding-top: 0;
+    scrollbar-gutter: stable;
+}
+
+.nav-category, .nav-list-link {
+  color: #9aaaaa;
+  font-size: 0.9rem;
+}
+
+/* Recipe card wrapper */
+.recipe-card {
+  border: 1px solid #31343f;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Servings */
+input[type="number"] {
+    field-sizing: content;
+}
+
+/* Quantity styling */
+.qty {
+  background: #31343f;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.ingredients {
+  border-bottom: 1px solid #e67e22;
+  padding-bottom: 0.2rem;
+}
