@@ -1,5 +1,27 @@
 /* Custom Styling */
 
+@import url("https://raw.githubusercontent.com/jekyll/minima/refs/heads/master/_sass/minima/skins/solarized.scss");
+
+/* Override variables with Minima Solarized palette */
+$body-background-color: $background-color !important;
+$sidebar-color: $brand-color-dimmed !important;
+$border-color: $border-color-01 !important;
+
+$body-heading-color: $text-color !important;
+$body-text-color: $text-color !important;
+$link-color: $link-base-color !important;
+$nav-child-link-color: $link-visited-color !important;
+$table-background-color: $table-header-bg-color !important;
+// $code-background-color: $code-background-color;
+// code-line-number-color: 
+
+$base-button-color: $brand-color-light !important;
+$btn-primary-color: $link-hover-color !important;
+$search-background-color: $brand-color !important;
+$feedback-color: darken($sidebar-color, 3%) !important;
+$search-result-preview-color: $brand-color !important;
+
+
 * {
   border: none !important;
 }
@@ -10,14 +32,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  border-bottom: 1px solid #e67e22;
+  border-bottom: 1px solid $sol-orange;
   padding-bottom: 0.2rem;
 }
 
 
 /* Navigation sidebar */
 .side-bar {
-  border-right: 2px solid #31343f;
+  border-right: 2px solid var(--solarized-mono01) !important;
   border-radius: 20px;
 }
 
@@ -27,13 +49,13 @@ h1 {
 }
 
 .nav-category, .nav-list-link {
-  color: #9aaaaa !important;
+  color: var(--solarized-mono00) !important;
   font-size: 0.9rem !important;
 }
 
 /* Recipe card wrapper */
 .recipe-card {
-  border: 1px solid #31343f !important;
+  border: 1px solid var(--solarized-mono01) !important;
   border-radius: 8px;
   padding: 1.2rem;
   margin-bottom: 1.5rem;
@@ -52,13 +74,13 @@ input[type="number"] {
 
 /* Quantity styling */
 .qty {
-  background: #31343f;
+  background: var(--solarized-mix3);
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
   font-family: "Segoe UI", sans-serif;
 }
 
 .ingredients {
-  border-bottom: 1px solid #e67e22 !important;
+  border-bottom: 1px solid $sol-organge !important;
   padding-bottom: 0.2rem;
 }
