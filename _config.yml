@@ -10,8 +10,6 @@ plugins:
   - jekyll-remote-theme
 color_scheme: dark
 layouts_dir: _layouts
-extra_css:
-  - /assets/css/custom.css
 
 # exclude working files and folders
 exclude:
