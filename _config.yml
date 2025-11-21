@@ -17,6 +17,7 @@ exclude:
   - update-sw.sh
   - scrape_and_update.py
   - .github/
+  - _sass/
 
 # recipe categories
 collections:
