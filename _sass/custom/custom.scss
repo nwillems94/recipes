@@ -1,10 +1,7 @@
----
----
-
-@import "{{ site.theme }}";
+/* Custom Styling */
 
 * {
-  border: none !important;
+  border: none;
 }
 
 /* Headings */
@@ -13,14 +10,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  border-bottom: 1px solid #e67e22 !important;
+  border-bottom: 1px solid #e67e22;
   padding-bottom: 0.2rem;
 }
 
 
 /* Navigation sidebar */
 .side-bar {
-  border-right: 2px solid #31343f !important;
+  border-right: 2px solid #31343f;
   border-radius: 20px;
 }
 
