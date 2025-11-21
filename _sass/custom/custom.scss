@@ -1,7 +1,7 @@
 /* Custom Styling */
 
 * {
-  border: none;
+  border: none !important;
 }
 
 /* Headings */
@@ -27,13 +27,13 @@ h1 {
 }
 
 .nav-category, .nav-list-link {
-  color: #9aaaaa;
-  font-size: 0.9rem;
+  color: #9aaaaa !important;
+  font-size: 0.9rem !important;
 }
 
 /* Recipe card wrapper */
 .recipe-card {
-  border: 1px solid #31343f;
+  border: 1px solid #31343f !important;
   border-radius: 8px;
   padding: 1.2rem;
   margin-bottom: 1.5rem;
@@ -59,6 +59,6 @@ input[type="number"] {
 }
 
 .ingredients {
-  border-bottom: 1px solid #e67e22;
+  border-bottom: 1px solid #e67e22 !important;
   padding-bottom: 0.2rem;
 }
