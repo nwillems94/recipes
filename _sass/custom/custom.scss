@@ -25,6 +25,7 @@ h1 {
 .site-nav {
     padding-top: 0;
     scrollbar-gutter: stable;
+    scrollbar-color: var(--solarized-mono00) transparent !important;
 }
 
 .nav-category, .nav-list-link {
