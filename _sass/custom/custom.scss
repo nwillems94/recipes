@@ -3,23 +3,23 @@
 @import "solarized";
 
 
-$body-background-color: $background-color;
-$sidebar-color: $brand-color;
-$border-color: $border-color-01;
+$body-background-color: $background-color !important;
+$sidebar-color: $brand-color !important;
+$border-color: $border-color-01 !important;
 
-$body-heading-color: $text-color;
-$body-text-color: $text-color;
-$link-color: $link-base-color;
-$nav-child-link-color: $link-visited-color;
-$table-background-color: $table-header-bg-color;
+$body-heading-color: $text-color !important;
+$body-text-color: $text-color !important;
+$link-color: $link-base-color !important;
+$nav-child-link-color: $link-visited-color !important;
+$table-background-color: $table-header-bg-color !important;
 // $code-background-color: $code-background-color;
 // code-line-number-color: 
 
-$base-button-color: $brand-color-dimmed;
-$btn-primary-color: $link-hover-color;
-$search-background-color: $brand-color-light;
-$feedback-color: $brand-color-dark;
-$search-result-preview-color: $brand-color-light;
+$base-button-color: $brand-color-dimmed !important;
+$btn-primary-color: $link-hover-color !important;
+$search-background-color: $brand-color-light !important;
+$feedback-color: $brand-color-dark !important;
+$search-result-preview-color: $brand-color-light !important;
 
 
 * {
@@ -32,8 +32,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  border-bottom: 1px solid $sol-orange;
-  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $sol-orange !important;
+  padding-bottom: 0.2rem;
 }
 
 
@@ -82,5 +82,5 @@ input[type="number"] {
 
 .ingredients {
   border-bottom: 1px solid $sol-orange !important;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
 }
