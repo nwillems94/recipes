@@ -6,8 +6,7 @@ declare -A letter_map
 # Collect recipe data
 for file in $(ls content/_*/*.md | sort); do
   name="$(basename "$file" .md)"
-  short_path="${file#content/_}"
-  letter="${short_path:0:1}"
+  letter="${name:0:1}"
   letter_map["$letter"]=1
 done
 
