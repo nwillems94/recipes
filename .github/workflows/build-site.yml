@@ -38,7 +38,7 @@ jobs:
       - name: Identify valid recipe files
         run: |
           FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '\.md$')
-          echo "LINKS_BY_FILE = {" > filtered_links.py
+          echo "LINKS_BY_FILE = {" > ./.github/filtered_links.py
           for file in $FILES; do
             # Extract non-YAML body (everything after second --- except empty lines)
             body=$(awk 'f{print} /^---/{c++} c==2{f=1}' "$file" | sed '/^$/d')
@@ -52,14 +52,14 @@ jobs:
             
             # validate link (excluding YouTube/Instagram) and write to file
             if [[ "$link" =~ ^https?:// ]]; then
-                echo "    \"$file\": \"$link\"," >> filtered_links.py
+                echo "    \"$file\": \"$link\"," >> ./.github/filtered_links.py
             fi
           done
-          echo "}" >> filtered_links.py
+          echo "}" >> ./.github/filtered_links.py
 
       - name: Scrape and update files
         run: |
-          python scrape_and_update.py
+          python ./.github/scrape_and_update.py
 
       - name: Commit to review branch
         run: |
@@ -88,10 +88,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate index.html
-        run: bash generate_index.sh
+        run: bash ./.github/generate_index.sh
 
       - name: Update sw.js
-        run: bash update-sw.sh
+        run: bash ./.github/update-sw.sh
 
       - name: Commit and push changes
         run: |
