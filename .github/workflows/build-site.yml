@@ -21,7 +21,6 @@ concurrency:
 jobs:
   # Scrape job
   scrape:
-    name: scrape
     if: contains(join(github.event.head_commit.added, github.event.head_commit.modified), '.md')
     permissions:
       contents: write
@@ -83,8 +82,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
   # Update the index and service worker
-  update-site:
-    name: update
+  update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -116,7 +114,6 @@ jobs:
 
   # Build job
   build:
-    name: build
     needs: [scrape, update]
     runs-on: ubuntu-latest
     steps:
