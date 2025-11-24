@@ -14,8 +14,8 @@ VERSION="version_${NEW_VERSION}"
 URLS=()
 while IFS= read -r file; do
     html_path="${file%.md}.html"
-    URLS+=("  \"${GHPATH}/${html_path#_}\"")
-done < <(find _breakfast _breads _dinners _sauces _desserts _cocktails -name '*.md')
+    URLS+=("  \"${GHPATH}/${html_path#content/_}\"")
+done < <(find content/_*/*.md')
 
 # Format URLS block
 URLS_BLOCK=$(printf "%s,\n" "${URLS[@]}")

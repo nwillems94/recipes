@@ -7,6 +7,7 @@ declare -A letter_map
 for file in $(ls _*/*.md | sort); do
   name="$(basename "$file" .md)"
   letter="${name:0:1}"
+  path="${file#content/_}
   letter_map["$letter"]=1
 done
 
@@ -33,7 +34,8 @@ done
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
 for file in $(ls _*/*.md | sort); do
   name="$(basename "$file" .md)"
-  path="${file:1:-2}html"
+  path="${file#content/_}"
+  path="${path%.md}.html"
   display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
   echo " <li data-name="$name"><a href="$path">$display_name</a></li>" >> "$INDEX_FILE"
 done

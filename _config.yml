@@ -17,6 +17,7 @@ exclude:
   - _sass/
 
 # recipe categories
+collections_dir: content
 collections:
   breads:
     output: true
