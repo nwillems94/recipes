@@ -35,7 +35,10 @@ for file in $(ls content/_*/*.md | sort); do
   name="$(basename "$file" .md)"
   short_path="${file#content/_}"
   short_path="${short_path%.md}.html"
-  display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
+  display_name="$(sed -n 's/title: "\(.*\)"/\1/p' $file)"
+  if [ -z "$display_name" ]; then
+    display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
+  fi
   echo " <li data-name="$name"><a href="$short_path">$display_name</a></li>" >> "$INDEX_FILE"
 done
 
