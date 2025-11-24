@@ -4,10 +4,10 @@ INDEX_FILE="index.html"
 declare -A letter_map
 
 # Collect recipe data
-for file in $(ls _*/*.md | sort); do
+for file in $(ls content/_*/*.md | sort); do
   name="$(basename "$file" .md)"
-  letter="${name:0:1}"
-  path="${file#content/_}
+  short_path="${file#content/_}"
+  letter="${short_path:0:1}"
   letter_map["$letter"]=1
 done
 
@@ -32,12 +32,12 @@ done
 
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
-for file in $(ls _*/*.md | sort); do
+for file in $(ls content/_*/*.md | sort); do
   name="$(basename "$file" .md)"
-  path="${file#content/_}"
-  path="${path%.md}.html"
+  short_path="${file#content/_}"
+  short_path="${short_path%.md}.html"
   display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
-  echo " <li data-name="$name"><a href="$path">$display_name</a></li>" >> "$INDEX_FILE"
+  echo " <li data-name="$name"><a href="$short_path">$display_name</a></li>" >> "$INDEX_FILE"
 done
 
 # JavaScript
