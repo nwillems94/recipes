@@ -120,6 +120,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Download minima theme
+        run: |
+          wget -O _sass/solarized.scss https://raw.githubusercontent.com/jekyll/minima/refs/heads/master/_sass/minima/skins/solarized.scss
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll

@@ -1,25 +1,26 @@
 /* Custom Styling */
 
-@import url("https://raw.githubusercontent.com/jekyll/minima/refs/heads/master/_sass/minima/skins/solarized.scss");
+@use "solarized" as msa;
+
 
 /* Override variables with Minima Solarized palette */
-$body-background-color: $background-color !important;
-$sidebar-color: $brand-color-dimmed !important;
-$border-color: $border-color-01 !important;
+$body-background-color: msa.$background-color !important;
+$sidebar-color: msa.$brand-color-dimmed !important;
+$border-color: msa.$border-color-01 !important;
 
-$body-heading-color: $text-color !important;
-$body-text-color: $text-color !important;
-$link-color: $link-base-color !important;
-$nav-child-link-color: $link-visited-color !important;
-$table-background-color: $table-header-bg-color !important;
-// $code-background-color: $code-background-color;
+$body-heading-color: msa.$text-color !important;
+$body-text-color: msa.$text-color !important;
+$link-color: msa.$link-base-color !important;
+$nav-child-link-color: msa.$link-visited-color !important;
+$table-background-color: msa.$table-header-bg-color !important;
+// $code-background-color: msa.$code-background-color;
 // code-line-number-color: 
 
-$base-button-color: $brand-color-light !important;
-$btn-primary-color: $link-hover-color !important;
-$search-background-color: $brand-color !important;
-$feedback-color: darken($sidebar-color, 3%) !important;
-$search-result-preview-color: $brand-color !important;
+$base-button-color: msa.$brand-color-light !important;
+$btn-primary-color: msa.$link-hover-color !important;
+$search-background-color: msa.$brand-color !important;
+$feedback-color: darken(msa.$sidebar-color, 3%) !important;
+$search-result-preview-color: msa.$brand-color !important;
 
 
 * {
