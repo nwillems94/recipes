@@ -3,23 +3,23 @@
 @import "solarized";
 
 
-$body-background-color: $background-color !important;
-$sidebar-color: $brand-color-dimmed !important;
-$border-color: $border-color-01 !important;
+$body-background-color: $background-color;
+$sidebar-color: $brand-color-dimmed;
+$border-color: $border-color-01;
 
-$body-heading-color: $text-color !important;
-$body-text-color: $text-color !important;
-$link-color: $link-base-color !important;
-$nav-child-link-color: $link-visited-color !important;
-$table-background-color: $table-header-bg-color !important;
+$body-heading-color: $text-color;
+$body-text-color: $text-color;
+$link-color: $link-base-color;
+$nav-child-link-color: $link-visited-color;
+$table-background-color: $table-header-bg-color;
 // $code-background-color: $code-background-color;
 // code-line-number-color: 
 
-$base-button-color: $brand-color-light !important;
-$btn-primary-color: $link-hover-color !important;
-$search-background-color: $brand-color !important;
-$feedback-color: darken($sidebar-color, 3%) !important;
-$search-result-preview-color: $brand-color !important;
+$base-button-color: $brand-color-light;
+$btn-primary-color: $link-hover-color;
+$search-background-color: $brand-color;
+$feedback-color: darken($sidebar-color, 3%);
+$search-result-preview-color: $brand-color;
 
 
 * {
