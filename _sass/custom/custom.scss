@@ -15,7 +15,7 @@ $table-background-color: $table-header-bg-color !important;
 // $code-background-color: $code-background-color;
 // code-line-number-color: 
 
-$base-button-color: $brand-color-dimmed !important;
+$base-button-color: $brand-color-dimmed;
 $btn-primary-color: $link-hover-color !important;
 $search-background-color: $brand-color-light !important;
 $feedback-color: $brand-color-dark !important;
@@ -82,5 +82,5 @@ input[type="number"] {
 
 .ingredients {
   border-bottom: 1px solid $sol-orange !important;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.rem;
 }
