@@ -1,0 +1,24 @@
+// custom colors based on just-the-docs dark and minima solarized
+
+@import "./color_schemes/dark";
+
+@import "solarized";
+
+
+$body-background-color: $background-color;
+$sidebar-color: $brand-color;
+$border-color: $border-color-01;
+
+$body-heading-color: $text-color;
+$body-text-color: $text-color;
+$link-color: $link-base-color;
+$nav-child-link-color: $link-visited-color;
+$table-background-color: $table-header-bg-color;
+// $code-background-color: $code-background-color;
+// code-line-number-color: 
+
+$base-button-color: $brand-color-dimmed;
+$btn-primary-color: $link-hover-color;
+$search-background-color: $brand-color-light;
+$feedback-color: $brand-color-dark;
+$search-result-preview-color: $brand-color-light;
