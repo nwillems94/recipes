@@ -11,8 +11,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  border-bottom: 1px solid $sol-orange !important;
+  border-bottom: 1px solid $sol-violet !important;
   padding-bottom: 0.2rem;
+  color: var(--solarized-link-visited)
 }
 
 
@@ -28,7 +29,7 @@ h1 {
     scrollbar-color: var(--solarized-mono00) transparent !important;
 }
 
-.nav-category, .nav-list-link {
+.nav-category, .nav-list-link, .nav-list-expander {
   color: var(--solarized-mono00) !important;
   font-size: 0.9rem !important;
 }
@@ -58,9 +59,10 @@ input[type="number"] {
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
   font-family: "Segoe UI", sans-serif;
+  color: white !important;
 }
 
 .ingredients {
-  border-bottom: 1px solid $sol-orange !important;
+  border-bottom: 1px solid $sol-violet !important;
   padding-bottom: 0.4rem;
 }
