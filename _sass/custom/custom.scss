@@ -4,7 +4,7 @@
 
 
 $body-background-color: $background-color;
-$sidebar-color: $brand-color-dimmed;
+$sidebar-color: $brand-color;
 $border-color: $border-color-01;
 
 $body-heading-color: $text-color;
@@ -15,11 +15,11 @@ $table-background-color: $table-header-bg-color;
 // $code-background-color: $code-background-color;
 // code-line-number-color: 
 
-$base-button-color: $brand-color-light;
+$base-button-color: $brand-color-dimmed;
 $btn-primary-color: $link-hover-color;
-$search-background-color: $brand-color;
+$search-background-color: $brand-color-light;
 $feedback-color: $brand-color-dark;
-$search-result-preview-color: $brand-color;
+$search-result-preview-color: $brand-color-light;
 
 
 * {
@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 h1 {
   border-bottom: 1px solid $sol-orange;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.5rem;
 }
 
 
