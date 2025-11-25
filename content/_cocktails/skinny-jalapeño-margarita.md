@@ -5,8 +5,6 @@ servings: "1"
 ingredients:
   - name: "Kosher salt and a lime wedge to rim the glass"
   - name: "Ice"
-    quantity: ""
-    unit: ""
   - name: "silver tequila"
     quantity: "2"
     unit: "ozs"
