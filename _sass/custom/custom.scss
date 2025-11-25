@@ -16,6 +16,12 @@ h1 {
   color: var(--solarized-link-visited)
 }
 
+button {
+    font-family: monospace;
+    margin-bottom: 0.5rem;
+    border-radius: 50px;
+    background-color: $sol-orange;
+}
 
 /* Navigation sidebar */
 .side-bar {
