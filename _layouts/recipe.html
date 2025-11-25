@@ -4,6 +4,8 @@ layout: post
 
 <h1>{{ page.title }}</h1>
 
+<button class="share-button" onclick="shareRecipe()">Share Recipe</button>
+
 <div class="recipe-card">
   <h2>Ingredients</h2>
 
@@ -46,5 +48,16 @@ layout: post
         qtySpan.textContent = formatQuantity(newQty);
       }
     });
+  }
+
+  function shareRecipe() {
+    if (navigator.share) {
+      navigator.share({
+        title: document.title,
+        url: window.location.href
+      }).catch(console.error);
+    } else {
+      alert('Sharing not supported on this browser.');
+    }
   }
 </script>
