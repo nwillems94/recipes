@@ -14,11 +14,17 @@ layout: post
 
   <ul id="ingredientList" class="ingredients">
     {% for ingredient in page.ingredients %}
-      <li data-quantity="{{ ingredient.quantity }}" data-unit="{{ ingredient.unit }}" data-name="{{ ingredient.name }}">
+      <li data-quantity="{{ ingredient.quantity | join: ';' }}" data-unit="{{ ingredient.unit | join: ';' }}" data-name="{{ ingredient.name }}">
         {% if ingredient.quantity %}
-          <span class="qty">{{ ingredient.quantity }}</span>
+          {% for qty in ingredient.quantity %}
+            {% if forloop.first %}
+              <span class="qty" data-index="0">{{ qty }}</span> {{ ingredient.unit[forloop.index0] }}
+            {% else %}
+              (<span class="qty" data-index="{{ forloop.index0 }}">{{ qty }}</span> {{ ingredient.unit[forloop.index0] }})
+            {% endif %}
+          {% endfor %}
         {% endif %}
-        {{ ingredient.unit }} {{ ingredient.name }}
+        {{ ingredient.name }}
       </li>
     {% endfor %}
   </ul>
@@ -40,13 +46,19 @@ layout: post
   function updateIngredients() {
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
-      const baseQty = parseFloat(item.getAttribute('data-quantity'));
-      const newQty = (baseQty / defaultServings) * newServings;
-
-      const qtySpan = item.querySelector('.qty');
-      if (qtySpan) {
-        qtySpan.textContent = formatQuantity(newQty);
+      let baseQtys = [];
+      const qtyAttr = item.getAttribute('data-quantity');
+      if (qtyAttr && qtyAttr.trim()) {
+        baseQtys = qtyAttr.split(';').map(q => parseFloat(q.trim())).filter(q => !isNaN(q));
       }
+
+      item.querySelectorAll('.qty').forEach((span, index) => {
+        const baseQty = baseQtys[index];
+        if (!isNaN(baseQty)) {
+          const newQty = (baseQty / defaultServings) * newServings;
+          span.textContent = formatQuantity(newQty);
+        }
+      });
     });
   }
 

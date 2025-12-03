@@ -3,15 +3,15 @@ title: "Buns"
 layout: recipe
 servings: "8"
 ingredients:
-  - name: "(200 g) whole wheat flour"
-    quantity: "1"
-    unit: "cup"
-  - name: "(350 g) bread flour"
-    quantity: "2"
-    unit: "cups"
+  - name: "whole wheat flour"
+    quantity: ["200", "1"]
+    unit: ["g", "cup"]
+  - name: "bread flour"
+    quantity: ["350", "2"]
+    unit: ["g", "cups"]
   - name: "cup sugar"
-    quantity: "1/8"
-    unit: "(20 g)"
+    quantity: ["20", "0.125"]
+    unit: ["g", "cup"]
   - name: "yeast"
     quantity: "1"
     unit: "tbsp"
@@ -21,12 +21,12 @@ ingredients:
   - name: "butter"
     quantity: "5"
     unit: "tbsp"
-  - name: "(150g) milk"
-    quantity: "0.5"
-    unit: "cup"
-  - name: "(250g) water"
-    quantity: "1"
-    unit: "cup"
+  - name: "milk"
+    quantity: ["150", "0.5"]
+    unit: ["g", "cup"]
+  - name: "water"
+    quantity: ["250", "1"]
+    unit: ["g", "cup"]
   - name: ""
     quantity: "1"
     unit: "egg"

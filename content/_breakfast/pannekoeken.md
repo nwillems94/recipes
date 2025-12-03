@@ -3,21 +3,21 @@ title: "Pannekoeken"
 layout: recipe
 servings: "12"
 ingredients:
-  - name: "(200 g) flour"
-    quantity: "1.5"
-    unit: "cups"
-  - name: "(10 g) baking powder"
-    quantity: "3"
-    unit: "tsp"
-  - name: "(25 g) sugar"
-    quantity: "2.5"
-    unit: "tbsp"
-  - name: "(2g) salt"
-    quantity: "0.5"
-    unit: "tsp"
-  - name: "(400 g) milk"
-    quantity: "1.75"
-    unit: "cups"
+  - name: "flour"
+    quantity: ["200", "1.5"]
+    unit: ["g", "cups"]
+  - name: "baking powder"
+    quantity: ["10", "3"]
+    unit: ["g", "tsp"]
+  - name: "sugar"
+    quantity: ["25", "2.5"]
+    unit: ["g", "tbsp"]
+  - name: "salt"
+    quantity: ["2", "0.5"]
+    unit: ["g", "tsp"]
+  - name: "milk"
+    quantity: ["400", "1.75"]
+    unit: ["g", "cups"]
   - name: ""
     quantity: "2"
     unit: "eggs"

@@ -3,21 +3,21 @@ title: "High hydration bread"
 layout: recipe
 servings: "1"
 ingredients:
-  - name: "(300 g) bread flour"
-    quantity: "2"
-    unit: "cups"
-  - name: "(200 g) brown flour"
-    quantity: "1.5"
-    unit: "cups"
-  - name: "(400 + 40 g) 90-95F water"
-    quantity: "2"
-    unit: "cups"
-  - name: "(11 g) salt"
-    quantity: "2"
-    unit: "tsp"
-  - name: "(1.5 g) yeast"
-    quantity: "1"
-    unit: "pinch"
+  - name: "bread flour"
+    quantity: [300, 2]
+    unit: [g, cups]
+  - name: "brown flour"
+    quantity: [200, 1.5]
+    unit: [g, cups]
+  - name: "90-95°F water"
+    quantity: [440, 2]
+    unit: [g, cups]
+  - name: "salt"
+    quantity: [11, 2]
+    unit: [g, tsp]
+  - name: "yeast"
+    quantity: [1.5, 5]
+    unit: ["g", "pinch"]
 
 ---
 Mix flour and water by hand until no dry spots remain. Let sit for 20 minutes.
