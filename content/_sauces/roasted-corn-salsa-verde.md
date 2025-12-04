@@ -13,7 +13,7 @@ ingredients:
     quantity: "3"
     unit: "serrano"
   - name: "(loosely packed) roughly chopped cilantro"
-    quantity: "2/3"
+    quantity: "0.66"
     unit: "cup"
   - name: "white onion, finely chopped"
     quantity: "1"

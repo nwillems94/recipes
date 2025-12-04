@@ -24,7 +24,7 @@ For the poolish - combine whole wheat flour & pinch of yeast with half the water
 
 Combine the poolish with the remaining warm water & yeast. 
 
-Add salt & ⅔ bread flour and combine into a shaggy dough. Let hydrate for 20 minutes
+Add salt & ⅔ of the bread flour and combine into a shaggy dough. Let hydrate for 20 minutes
 
 Knead dough, adding bread flour gradually until the dough is only slightly sticky. Let rise for 1 hour
 

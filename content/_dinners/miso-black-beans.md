@@ -30,7 +30,9 @@ ingredients:
   - name: "stock + 1 tbsp cornstarch"
     quantity: "1"
     unit: "cup"
-
+  - name: "cornstarch"
+    quantity: "1"
+    unit: "tbsp"
 ---
 Sauté the garlic & whites of the onions in chili oil until fragrant; about 2-3 minutes.
 

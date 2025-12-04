@@ -4,19 +4,19 @@ layout: recipe
 servings: "1"
 ingredients:
   - name: "bread flour"
-    quantity: [300, 2]
-    unit: [g, cups]
+    quantity: ["300", "2"]
+    unit: ["g", "cups"]
   - name: "brown flour"
-    quantity: [200, 1.5]
-    unit: [g, cups]
+    quantity: ["200", "1.5"]
+    unit: ["g", "cups"]
   - name: "90-95°F water"
-    quantity: [440, 2]
-    unit: [g, cups]
+    quantity: ["440", "2"]
+    unit: ["g", "cups"]
   - name: "salt"
-    quantity: [11, 2]
-    unit: [g, tsp]
+    quantity: ["11", "2"]
+    unit: ["g", "tsp"]
   - name: "yeast"
-    quantity: [1.5, 5]
+    quantity: ["1.5", "1"]
     unit: ["g", "pinch"]
 
 ---

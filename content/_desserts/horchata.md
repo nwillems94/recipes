@@ -19,7 +19,7 @@ ingredients:
     quantity: "0.5"
     unit: "tsp"
   - name: "sugar"
-    quantity: "1/8"
+    quantity: "0.125"
     unit: "cup"
 
 ---
@@ -27,7 +27,7 @@ Soak the rice overnight or at least 8 hours in water with cinnamon sticks.
 
 The next day discard cinnamon sticks and blend the rice and water in your blender at the highest speed for about 5 minutes.
 
-Pass through a fine mesh sieve about two times to catch all the gritty bits. (A stocking works great) Discard the remaining rice pulp.
+Pass through a fine mesh sieve about two times to catch all the gritty bits. Discard the remaining rice pulp.
 
 Pour into a pitcher, add skim milk, sugar, cinnamon and vanilla and mix well by stirring. Refrigerate until ready to serve.
 

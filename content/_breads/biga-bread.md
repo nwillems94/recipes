@@ -23,7 +23,7 @@ ingredients:
     unit: "g"
   - name: "105°F water"
     quantity: "100"
-    unit: "g,"
+    unit: "g"
 
 ---
 For the biga, combine AP flour, half the yeast, and water in a large bowl and mix using the pincer method. Cover and leave over night at room temperature.

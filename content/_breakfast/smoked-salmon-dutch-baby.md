@@ -23,7 +23,7 @@ ingredients:
     unit: "g"
   - name: "arugula"
     quantity: "1"
-    unit: "Handful"
+    unit: "handful"
   - name: ""
     quantity: "0.5"
     unit: "lemon"

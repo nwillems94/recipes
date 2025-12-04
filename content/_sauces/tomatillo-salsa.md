@@ -21,7 +21,7 @@ ingredients:
   - name: "water"
     quantity: "0.25"
     unit: "cup"
-  - name: "Salt & Sugar to taste"
+  - name: "salt & sugar to taste"
 
 ---
 <https://www.seriouseats.com/recipes/2009/04/grilling-tomatillo-salsa-recipe.html>
