@@ -7,7 +7,8 @@ layout: post
 <button class="share-button" onclick="shareRecipe()">Share Recipe</button>
 
 <div class="recipe-card">
-  <h2>Ingredients</h2>
+  <details open>
+  <summary> <h2 style="display:inline-block; padding-left:0.25rem">Ingredients</h2> </summary>
 
   <label for="servings">Servings:</label>
   <input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
@@ -28,6 +29,7 @@ layout: post
       </li>
     {% endfor %}
   </ul>
+  </details>
 
   <p>{{ content }}</p>
 </div>
