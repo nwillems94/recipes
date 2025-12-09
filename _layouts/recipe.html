@@ -14,13 +14,13 @@ layout: post
 
   <ul id="ingredientList" class="ingredients">
     {% for ingredient in page.ingredients %}
-      <li data-quantity="{{ ingredient.quantity | join: ';' }}" data-unit="{{ ingredient.unit | join: ';' }}" data-name="{{ ingredient.name }}">
+      <li data-quantity="{{ ingredient.quantity | join: ';' }}">
         {% if ingredient.quantity %}
           {% for qty in ingredient.quantity %}
             {% if forloop.first %}
-              <span class="qty" data-index="0">{{ qty }}</span> {{ ingredient.unit[forloop.index0] }}
+              <span class="qty" data-index="0">{{ qty }}</span> {{ ingredient.unit[forloop.index0] | default: ingredient.unit }}
             {% else %}
-              (<span class="qty" data-index="{{ forloop.index0 }}">{{ qty }}</span> {{ ingredient.unit[forloop.index0] }})
+              (<span class="qty" data-index="{{ forloop.index0 }}">{{ qty }}</span> {{ ingredient.unit[forloop.index0] | default: ingredient.unit }})
             {% endif %}
           {% endfor %}
         {% endif %}
