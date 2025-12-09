@@ -31,7 +31,7 @@ done
 
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
-for file in $(ls content/_*/*.md | sort); do
+for file in $(ls content/_*/*.md | sort -t/ -k3); do
   name="$(basename "$file" .md)"
   short_path="${file#content/_}"
   short_path="${short_path%.md}.html"
