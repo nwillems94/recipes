@@ -55,6 +55,11 @@ button {
   transform: translateY(-3px);
 }
 
+/* don't highlight when tapping on mobile */
+summary {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* Servings */
 input[type="number"] {
     field-sizing: content;
