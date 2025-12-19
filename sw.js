@@ -5,7 +5,7 @@ var GHPATH = '/recipes';
 var APP_PREFIX = 'ghpr_';
  
 // cache version, needs to be updated any time any of the local files change
-var VERSION = 'version_00052';
+var VERSION = 'version_00053';
  
 // The files to make available for offline use
 var URLS = [    
@@ -14,6 +14,7 @@ var URLS = [
   "/recipes/breads/baguettes.html",
   "/recipes/breads/biga-bread.html",
   "/recipes/breads/buns.html",
+  "/recipes/breads/ciabatta.html",
   "/recipes/breads/flatbread.html",
   "/recipes/breads/flour-tortillas.html",
   "/recipes/breads/high-hydration-bread.html",
@@ -26,6 +27,7 @@ var URLS = [
   "/recipes/breads/roti.html",
   "/recipes/breads/rustic-bread.html",
   "/recipes/breads/sheetpan-pizza.html",
+  "/recipes/breads/sourdough-bagels.html",
   "/recipes/breads/sourdough-focaccia.html",
   "/recipes/breakfast/banoffee-breakfast.html",
   "/recipes/breakfast/pannekoeken.html",
@@ -44,6 +46,7 @@ var URLS = [
   "/recipes/desserts/brown-butter-cookies.html",
   "/recipes/desserts/carrot-cake.html",
   "/recipes/desserts/chocolate-chip-cookies.html",
+  "/recipes/desserts/chocolate-mousse.html",
   "/recipes/desserts/cinnamon-sugar-bread.html",
   "/recipes/desserts/cinnamon-sugar-roasted-almonds.html",
   "/recipes/desserts/frozen-banana-whip.html",
@@ -107,7 +110,7 @@ var URLS = [
   "/recipes/dinners/vegetarain-pasta-e-fagioli.html",
   "/recipes/dinners/white-bean-bolognese.html",
   "/recipes/dinners/wilted-romaine.html",
-  "/recipes/dinners/wonton.html",
+  "/recipes/dinners/wontons.html",
   "/recipes/sauces/balsamic-vinaigrette.html",
   "/recipes/sauces/garlic-cream-sauce.html",
   "/recipes/sauces/ginger-miso-dressing.html",
