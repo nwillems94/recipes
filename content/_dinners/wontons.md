@@ -1,5 +1,5 @@
 ---
-title: "Linda's Wonton meet (meat)"
+title: "Wontons (Linda's Wonton 'meet')"
 layout: recipe
 servings: "6"
 ingredients:
