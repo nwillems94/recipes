@@ -21,6 +21,7 @@ button {
     margin-bottom: 0.5rem;
     border-radius: 50px;
     background-color: $sol-orange;
+    color: white !important;
 }
 
 /* Navigation sidebar */
@@ -47,7 +48,6 @@ button {
   padding: 1.2rem;
   padding-top: 0;
   margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   transition: transform 0.2s ease;
 }
 
@@ -63,6 +63,7 @@ summary {
 /* Servings */
 input[type="number"] {
     field-sizing: content;
+    background: rgba(0,0,0,0.5);
 }
 
 /* Quantity styling */
@@ -71,7 +72,7 @@ input[type="number"] {
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
   font-family: "Segoe UI", sans-serif;
-  color: white !important;
+  box-shadow: 0.25px 0.25px var(--solarized-mono00);
 }
 
 .ingredients {
