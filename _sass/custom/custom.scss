@@ -1,10 +1,6 @@
 /* Custom Styling */
 @import "minima_solarized";
 
-* {
-  border: none !important;
-}
-
 /* Headings */
 h1, h2, h3 {
   font-family: "Merriweather", Georgia, serif;
@@ -20,6 +16,7 @@ button {
     font-family: monospace;
     margin-bottom: 0.5rem;
     border-radius: 50px;
+    border: none;
     background-color: $sol-orange;
     color: white !important;
 }
