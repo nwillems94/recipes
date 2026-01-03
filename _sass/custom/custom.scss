@@ -63,10 +63,6 @@ input[type="number"] {
     background: rgba(0,0,0,0.5);
     border: none;
 }
-input[type=number]::-webkit-inner-spin-button {
-    opacity: 1 !important;
-    width: 15px;
-}
 
 /* Quantity styling */
 .qty {
