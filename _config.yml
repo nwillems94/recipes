@@ -11,9 +11,6 @@ plugins:
 color_scheme: solarized
 layouts_dir: _layouts
 
-search:
-  button: true
-
 # exclude working files and folders
 exclude:
   - .github/
