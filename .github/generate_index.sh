@@ -43,7 +43,14 @@ for letter in $(printf "%s\n" "${!letter_map[@]}" | sort); do
 done
 
 # Recipe list
-echo "</div><ul id=\"recipeList\" style=\"list-style-type: none;\">" >> "$INDEX_FILE"
+cat <<EOF > "$INDEX_FILE"
+<style>
+  #recipeList li::before { content: none !important; }
+</style>
+
+</div><ul id="recipeList" style="list-style-type: circle;">
+EOF
+
 for file in $(ls content/_*/*.md | sort -t/ -k3); do
   name="$(basename "$file" .md)"
   short_path="${file#content/_}"
@@ -58,13 +65,13 @@ for file in $(ls content/_*/*.md | sort -t/ -k3); do
   if [ -n "$recipe_tag" ]; then
     echo " <li data-name=\"$name\" style=\"list-style-type: '$recipe_tag';\"><a href=\"$short_path\">$display_name</a></li>" >> "$INDEX_FILE"
   else
-    echo " <li data-name=\"$name\" style=\"list-style-type: circle;\"><a href=\"$short_path\">$display_name</a></li>" >> "$INDEX_FILE"
+    echo " <li data-name=\"$name\"><a href=\"$short_path\">$display_name</a></li>" >> "$INDEX_FILE"
   fi
 done
+echo "</ul>" >> "$INDEX_FILE"
 
 # JavaScript
 cat <<'EOF' >> "$INDEX_FILE"
-</ul>
 <script>
   let activeLetter = null;
 
