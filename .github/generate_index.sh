@@ -56,9 +56,9 @@ for file in $(ls content/_*/*.md | sort -t/ -k3); do
   # Get tags for this recipe
   recipe_tag="${recipe_tags[$name]:-}"
   if [ -n "$recipe_tag" ]; then
-    echo " <li data-name="$name" style=\"list-style-type: none;\"><a href="$short_path">$recipe_tag  $display_name</a></li>" >> "$INDEX_FILE"
+    echo " <li data-name=\"$name\" style=\"list-style-type: '$recipe_tag';\"><a href=\"$short_path\">$display_name</a></li>" >> "$INDEX_FILE"
   else
-    echo " <li data-name="$name"><a href="$short_path">$display_name</a></li>" >> "$INDEX_FILE"
+    echo " <li data-name=\"$name\"><a href=\"$short_path\">$display_name</a></li>" >> "$INDEX_FILE"
   fi
 done
 
