@@ -9,6 +9,7 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 color_scheme: solarized
+logo: "/assets/favicon.svg"
 layouts_dir: _layouts
 
 # exclude working files and folders
