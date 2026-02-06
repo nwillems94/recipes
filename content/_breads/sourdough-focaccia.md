@@ -33,11 +33,11 @@ Place a sheet of parchment paper in a quarter sheet pan and spread 3 tbsps of ex
 
 Cover pan and refrigerate for 18-24 hours.
 
-Remove from the fridge 1-3 hours before baking. Preheat a convection oven to 450ºF.
+Remove from the fridge 1-3 hours before baking. Preheat a convection oven to 450°F.
 
 Using a garlic press, spread 3 medium cloves on top. Drizzle the focaccia generously with extra virgin olive oil and dimple the dough all over using oiled fingers. Sprinkle generously with chopped rosemary.
 
-Bake in the preheated oven for 15 minutes then reduce the temperature to 375ºF and bake for a further 15 minutes or until the focaccia is golden brown.
+Bake in the preheated oven for 15 minutes then reduce the temperature to 375°F and bake for a further 15 minutes or until the focaccia is golden brown.
 
 Remove from the oven, sprinkle with flakey sea salt, and carefully transfer the bread to a wire rack to cool.
 

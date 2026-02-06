@@ -22,7 +22,7 @@ ingredients:
     unit: "tsp"
 ---
 
-Preheat the oven to 250 degrees F (120 degrees C). Lightly grease a 10x15-inch jellyroll pan.
+Preheat the oven to 250°F (120°C). Lightly grease a 10x15-inch jellyroll pan.
 Lightly beat egg white in a large bowl. Add water; beat until frothy but not stiff.
 Stir in nuts until well coated.
 Mix sugar, cinnamon, and salt in a small bowl. Sprinkle sugar mixture over nuts; toss to coat. Spread evenly onto the prepared pan.

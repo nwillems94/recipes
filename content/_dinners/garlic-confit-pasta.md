@@ -25,7 +25,7 @@ ingredients:
 ---
 Serves 4
 
-1. Preheat oven to 250F.
+1. Preheat oven to 250°F.
 
 2. Add the garlic, tomatoes, oil, thyme, salt and red pepper flakes (optional) into a medium baking pan. Bake for about 90 minutes.
 

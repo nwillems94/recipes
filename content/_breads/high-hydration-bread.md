@@ -9,7 +9,7 @@ ingredients:
   - name: "brown flour"
     quantity: ["200", "1.5"]
     unit: ["g", "cups"]
-  - name: "90-95°F water"
+  - name: "100°F water"
     quantity: ["440", "2"]
     unit: ["g", "cups"]
   - name: "salt"
@@ -30,6 +30,6 @@ On a floured work surface, shape the dough into a tight ball (using a bench scra
 
 Place seam side down into a floured proofing basket. Cover with plastic and place in refrigerator for 12-14 hours. 
 
-In a preheated Dutch oven, bake at 475F for 30 minutes with the lid on, then an additional 25 minutes with the lid off.
+In a preheated Dutch oven, bake at 475°F for 30 minutes with the lid on, then an additional 25 minutes with the lid off.
 
 

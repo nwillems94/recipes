@@ -35,7 +35,7 @@ ingredients:
     quantity: "1"
 ---
 
-Preheat the oven to 425 degrees F.
+Preheat the oven to 425°F.
 Toss the potatoes in 1 tablespoon olive oil and spread them out evenly on a sheet pan, cut-side down. Season with 1/2 teaspoon salt and a few turns of black pepper. Roast for 15 minutes. Remove from the oven, toss the potatoes and push them off to the side of the pan. Place the broccolini in the center third of the sheet pan and the salmon on the remaining third. Drizzle the broccolini and salmon with the remaining 1 tablespoon olive oil, sprinkle with the remaining 1/4 teaspoon salt and a few turns of black pepper. Roast until the salmon is cooked through, about another 15 minutes.
 Meanwhile, make the sauce. Combine the mayonnaise, Greek yogurt, capers, horseradish and some black pepper with the juice of half a lemon in a medium bowl and stir. Taste and adjust as desired.
 When the salmon is cooked, squeeze the remaining lemon half over the top of everything and serve with the sauce on the side.

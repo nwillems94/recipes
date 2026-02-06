@@ -47,7 +47,7 @@ ingredients:
     quantity: "2"
 ---
 
-Preheat the oven to 425° F.
+Preheat the oven to 425°F.
 
 On a baking sheet, toss together the chicken with some olive oil, paprika, cumin, ginger, and a pinch each of salt, pepper, and chili flakes. Add the bell peppers, fresno, shallots, and garlic and toss with the chicken. Bake 25 minutes, until cooked through.
 

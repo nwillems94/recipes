@@ -39,7 +39,7 @@ Add 1 tbsp butter to the hot pan or oven dish. Immediately put back in the oven 
 
 Once the butter has melted, pour in the batter. Bake in the oven for about 18 minutes, until the pancake has risen considerably.
 
-Reduce the oven to 300°F degrees and bake for another 5 minutes.
+Reduce the oven to 300°F and bake for another 5 minutes.
 
 Spread the crème fraîche, arugula, red onion, and smoked salmon over the pancake.
 

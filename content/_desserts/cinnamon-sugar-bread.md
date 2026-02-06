@@ -34,7 +34,7 @@ ingredients:
     unit: "cup"
 ---
 
-Preheat oven to 350 degrees. Butter 9x5x3'' loaf pan with 1 tbsp butter and set aside.
+Preheat oven to 350°F. Butter 9x5x3'' loaf pan with 1 tbsp butter and set aside.
 In a small bowl combine 1/3 cup sugar and 3 teaspoons cinnamon, stir together and set aside.
 In a medium mixing bowl combine flour, baking powder, salt, remaining 1 teaspoon cinnamon and remaining 1 cup sugar. Sift together to combine.
 In a small mixing bowl whisk together egg, milk, oil and vanilla extract. Stir by hand into flour mixture until combined.

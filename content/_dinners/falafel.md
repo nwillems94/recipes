@@ -49,7 +49,7 @@ Once the mixture reaches the desired consistency, pour it out into a bowl and us
 
 Cover the bowl with plastic wrap and refrigerate for 1-2 hours.
 
-Fill a skillet with vegetable oil to a depth of 1.5 inches. Heat the oil slowly over medium heat. The ideal temperature to fry falafel is between 360 and 375 degrees F
+Fill a skillet with vegetable oil to a depth of 1.5 inches. Heat the oil slowly over medium heat. The ideal temperature to fry falafel is between 360° and 375°F
 
 Meanwhile, form falafel mixture into round balls or slider-shaped patties using wet hands or a falafel scoop. About 2 tbsp of mixture per falafel. If the oil is at the right temperature, it will take 2-3 minutes per side to brown (5-6 minutes total)
 

@@ -48,8 +48,8 @@ ingredients:
 ---
 1. In a small bowl, whisk together the Fajita Season Blend, and set aside.
 2. Put the Steak/Marinade ingredients into a glass container with a lid (or a freezer bag), stir to combine, and set in the refrigerator to marinate at least 30 minutes, or up to a day. If you have a busy day, get the steak marinating before you leave for the morning, so it is ready to cook when you get home.
-3. When you are ready to make the fajitas, pre-heat the oven to 400 degrees.
-4. Toss the Veggie ingredients together on a large sheet pan, and then divide the veggies onto 2 large sheet pans so they are spread out well for roasting. Roast at 400 degrees for 15 minutes.
+3. When you are ready to make the fajitas, pre-heat the oven to 400°F.
+4. Toss the Veggie ingredients together on a large sheet pan, and then divide the veggies onto 2 large sheet pans so they are spread out well for roasting. Roast at 400°F for 15 minutes.
 5. Take the veggies out of the oven, and combine the veggies onto ONE sheet tray, scooting them over to cover just half of the sheet tray. Put the marinated steak onto the other half of the sheet tray, and broil on HI for 4 minutes until the steak is cooked to your liking (this leaves just a slight pink in the middle. If you make thinner strips of steak than what is shown above, you will want to cut the broil time down by a minute or 2.)
 
 

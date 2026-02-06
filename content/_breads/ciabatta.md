@@ -6,7 +6,7 @@ ingredients:
   - name: "AP flour"
     quantity: "300"
     unit: "g"
-  - name: "90°F water"
+  - name: "100°F water"
     quantity: "200"
     unit: "g"
   - name: "sourdough starter"

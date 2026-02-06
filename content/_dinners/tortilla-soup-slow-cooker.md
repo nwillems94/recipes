@@ -56,7 +56,7 @@ ingredients:
 ---
 
 Place chicken, tomatoes, enchilada sauce, onion, banana peppers, and garlic into a slow cooker. Pour in water and chicken broth. Season with cumin, chili powder, salt, black pepper, and bay leaf. Stir in corn and cilantro. Cover and cook on Low for 6 to 8 hours or High for 3 to 4 hours.
-When the soup is almost finished, preheat the oven to 400 degrees F (200 degrees C). Lightly coat tortillas on both sides with cooking spray. Cut tortillas into strips, then spread on a baking sheet.
+When the soup is almost finished, preheat the oven to 400°F (200°C). Lightly coat tortillas on both sides with cooking spray. Cut tortillas into strips, then spread on a baking sheet.
 Bake in the preheated oven until crisp, 10 to 15 minutes. Sprinkle tortilla strips over soup.
 
 <https://www.allrecipes.com/recipe/222096/healthier-slow-cooker-chicken-tortilla-soup/>

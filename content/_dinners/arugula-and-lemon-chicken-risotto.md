@@ -38,7 +38,7 @@ Stir in the rice until completely coated with the oil.
 
 Add lemon juice and let boil until completely evaporated, about 1 minute.
 
-Stir in the chicken broth, cover, and stick the whole pot into a 400° oven. Cook until most of the liquid has been absorbed, about 25 minutes.
+Stir in the chicken broth, cover, and stick the whole pot into a 400°F oven. Cook until most of the liquid has been absorbed, about 25 minutes.
 
 Remove from oven, and stir in the butter, Parmesan cheese, lemon zest, arugula and ½ cup water.
 
