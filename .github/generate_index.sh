@@ -21,7 +21,7 @@ done
 cat <<EOF > "$INDEX_FILE"
 ---
 layout: home
-title: Recipe Index
+title: All Recipes
 nav_exclude: true
 search_exclude: true
 ---
@@ -31,7 +31,7 @@ search_exclude: true
 <div class="tag-legend" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
   <span>⭐ Tried & true</span>
   <span>🧪 Testing</span>
-  <span>🚧 Needs work</span>
+  <span>🚧 To do</span>
 </div>
 
 <div class="filter-group" id="letterButtons" style="text-wrap: balance; text-align: center;">
