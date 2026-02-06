@@ -1,5 +1,6 @@
 ---
 title: "Naan"
+tags: 🧪
 layout: recipe
 servings: "2"
 ingredients:

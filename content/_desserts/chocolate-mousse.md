@@ -1,5 +1,6 @@
 ---
 title: "Chocolate Mousse (Opa's chocolademousse)"
+tags: ⭐
 layout: recipe
 servings: "12"
 ingredients:

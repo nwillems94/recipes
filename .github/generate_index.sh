@@ -2,12 +2,19 @@
 
 INDEX_FILE="index.html"
 declare -A letter_map
+declare -A recipe_tags
 
-# Collect recipe data
-for file in $(ls content/_*/*.md | sort); do
+# Collect recipe data and map letters
+for file in $(ls content/_*/*.md | sort -t/ -k3); do
   name="$(basename "$file" .md)"
   letter="${name:0:1}"
   letter_map["$letter"]=1
+  
+  # Extract tags from YAML front matter
+  tags_line="$(sed -n 's/^tags: \(.*\)$/\1/p' $file)"
+  if [ -n "$tags_line" ]; then
+    recipe_tags["$name"]="$tags_line"
+  fi
 done
 
 # Start Jekyll-compatible HTML
@@ -21,6 +28,13 @@ search_exclude: true
 
 <h1>Recipe Index</h1>
 
+<div class="tag-legend">
+  <strong>Tags:</strong>
+  <span>🧪 testing</span>
+  <span>🚧 needs work</span>
+  <span>⭐ tried & true</span>
+</div>
+
 <div class="filter-group" id="letterButtons" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
 EOF
 
@@ -28,7 +42,6 @@ EOF
 for letter in $(printf "%s\n" "${!letter_map[@]}" | sort); do
   echo "  <button class=\"letter-button\" data-letter=\"$letter\" onclick=\"filterByLetter('$letter')\">$letter</button>" >> "$INDEX_FILE"
 done
-
 
 # Recipe list
 echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
@@ -40,6 +53,12 @@ for file in $(ls content/_*/*.md | sort -t/ -k3); do
   if [ -z "$display_name" ]; then
     display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
   fi
+  
+  # Get tags for this recipe
+  recipe_tag="${recipe_tags[$name]:-}"
+  if [ -n "$recipe_tag" ]; then
+    display_name="$recipe_tag $display_name"
+  fi
   echo " <li data-name="$name"><a href="$short_path">$display_name</a></li>" >> "$INDEX_FILE"
 done
 
@@ -50,7 +69,6 @@ cat <<'EOF' >> "$INDEX_FILE"
   let activeLetter = null;
 
   function filterRecipes() {
-
     document.querySelectorAll("#recipeList li").forEach(item => {
       const name = item.getAttribute("data-name").toLowerCase();
       const matchesLetter = !activeLetter || name.startsWith(activeLetter);
@@ -61,7 +79,6 @@ cat <<'EOF' >> "$INDEX_FILE"
       const letter = button.getAttribute("data-letter").toUpperCase();
       button.classList.toggle("active", activeLetter === letter);
     });
-
   }
 
   function filterByLetter(letter) {

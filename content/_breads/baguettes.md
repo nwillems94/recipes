@@ -1,5 +1,6 @@
 ---
 title: "Baguettes"
+tags: ⭐
 layout: recipe
 servings: "2"
 ingredients:
