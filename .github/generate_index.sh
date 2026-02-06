@@ -43,7 +43,7 @@ for letter in $(printf "%s\n" "${!letter_map[@]}" | sort); do
 done
 
 # Recipe list
-cat <<EOF > "$INDEX_FILE"
+cat <<'EOF' >> "$INDEX_FILE"
 <style>
   #recipeList li::before { content: none !important; }
 </style>
@@ -104,7 +104,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 </script>
-
 EOF
 
 echo "✅ index.html has been generated with active filter highlighting."
