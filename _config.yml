@@ -11,6 +11,9 @@ plugins:
 color_scheme: solarized
 layouts_dir: _layouts
 
+search:
+  button: true
+
 # exclude working files and folders
 exclude:
   - .github/
@@ -52,5 +55,3 @@ just_the_docs:
     cocktails:
       name: 🍸Cocktails
       nav_fold: true
-  search:
-    button: true
