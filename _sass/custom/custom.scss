@@ -33,6 +33,10 @@ button {
     scrollbar-color: var(--solarized-mono00) transparent !important;
 }
 
+.search {
+    background-color: $background-color !important;
+}
+
 .nav-category, .nav-list-link, .nav-list-expander {
   color: var(--solarized-mono00) !important;
   font-size: 0.9rem !important;
