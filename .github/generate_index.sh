@@ -28,19 +28,18 @@ search_exclude: true
 
 <h1>Recipe Index</h1>
 
-<div class="tag-legend">
-  <strong>Tags:</strong>
-  <span>🧪 testing</span>
-  <span>🚧 needs work</span>
-  <span>⭐ tried & true</span>
+<div class="tag-legend" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+  <span>🧪 Testing</span>
+  <span>🚧 Needs work</span>
+  <span>⭐ Tried & true</span>
 </div>
 
-<div class="filter-group" id="letterButtons" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+<div class="filter-group" id="letterButtons" style="text-wrap: balance;">
 EOF
 
 # Alphabet buttons with data-letter
 for letter in $(printf "%s\n" "${!letter_map[@]}" | sort); do
-  echo "  <button class=\"letter-button\" data-letter=\"$letter\" onclick=\"filterByLetter('$letter')\">$letter</button>" >> "$INDEX_FILE"
+  echo "  <button class=\"letter-button\" data-letter=\"$letter\" onclick=\"filterByLetter('$letter')\" style=\"display: inline-block;\">$letter</button>" >> "$INDEX_FILE"
 done
 
 # Recipe list
