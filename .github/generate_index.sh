@@ -34,7 +34,7 @@ search_exclude: true
   <span>⭐ Tried & true</span>
 </div>
 
-<div class="filter-group" id="letterButtons" style="text-wrap: balance;">
+<div class="filter-group" id="letterButtons" style="text-wrap: balance; text-align: center;">
 EOF
 
 # Alphabet buttons with data-letter
@@ -43,7 +43,7 @@ for letter in $(printf "%s\n" "${!letter_map[@]}" | sort); do
 done
 
 # Recipe list
-echo "</div><ul id=\"recipeList\">" >> "$INDEX_FILE"
+echo "</div><ul id=\"recipeList\" style=\"list-style: none;\">" >> "$INDEX_FILE"
 for file in $(ls content/_*/*.md | sort -t/ -k3); do
   name="$(basename "$file" .md)"
   short_path="${file#content/_}"
@@ -57,6 +57,8 @@ for file in $(ls content/_*/*.md | sort -t/ -k3); do
   recipe_tag="${recipe_tags[$name]:-}"
   if [ -n "$recipe_tag" ]; then
     display_name="$recipe_tag $display_name"
+  else
+    display_name="• $display_name"
   fi
   echo " <li data-name="$name"><a href="$short_path">$display_name</a></li>" >> "$INDEX_FILE"
 done
