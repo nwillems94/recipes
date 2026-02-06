@@ -52,3 +52,5 @@ just_the_docs:
     cocktails:
       name: 🍸Cocktails
       nav_fold: true
+  search:
+    button: true
