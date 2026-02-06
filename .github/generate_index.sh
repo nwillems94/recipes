@@ -20,7 +20,8 @@ search_exclude: true
 ---
 
 <h1>Recipe Index</h1>
-<div class="filter-group" id="letterButtons">
+
+<div class="filter-group" id="letterButtons" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
 EOF
 
 # Alphabet buttons with data-letter
