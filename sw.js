@@ -5,7 +5,7 @@ var GHPATH = '/recipes';
 var APP_PREFIX = 'ghpr_';
  
 // cache version, needs to be updated any time any of the local files change
-var VERSION = 'version_00074';
+var VERSION = 'version_00075';
  
 // The files to make available for offline use
 var URLS = [    
@@ -30,6 +30,7 @@ var URLS = [
   "/recipes/breads/sourdough-bagels.html",
   "/recipes/breads/sourdough-focaccia.html",
   "/recipes/breakfast/banoffee-breakfast.html",
+  "/recipes/breakfast/pancakes.html",
   "/recipes/breakfast/pannekoeken.html",
   "/recipes/breakfast/smoked-salmon-dutch-baby.html",
   "/recipes/breakfast/sourdough-waffles.html",
@@ -71,6 +72,7 @@ var URLS = [
   "/recipes/dinners/chicken-wings.html",
   "/recipes/dinners/chicken-with-rosemary-sauce.html",
   "/recipes/dinners/chicken-with-sundried-tomato-sauce.html",
+  "/recipes/dinners/coconut-braised-cabbage.html",
   "/recipes/dinners/cold-noodles.html",
   "/recipes/dinners/crispy-feta-with-lemon-pepper-chicken-and-rice.html",
   "/recipes/dinners/cóctel-de-camarón.html",
@@ -105,6 +107,7 @@ var URLS = [
   "/recipes/dinners/slow-cooked-ribs.html",
   "/recipes/dinners/spaghetti-bolognese.html",
   "/recipes/dinners/spicy-shrimp-tacos.html",
+  "/recipes/dinners/tofu-eggplant.html",
   "/recipes/dinners/tortilla-soup-slow-cooker.html",
   "/recipes/dinners/tuna-confit.html",
   "/recipes/dinners/vegetarain-pasta-e-fagioli.html",
