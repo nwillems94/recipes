@@ -15,19 +15,17 @@ ingredients:
   - name: "salt"
     quantity: "10"
     unit: "g"
-  - name: "water"
-    quantity: "260"
+  - name: "warm (100°F) water"
+    quantity: "300"
     unit: "g"
 
 ---
-Combine ingredients in a large bowl and knead to form a smooth dough (~5 min).
+In a large bowl, disolve the starter in the water. Add AP flour, stir to combine, and leave in a warm place for 1 hour. 
 
-Allow the dough to rise, covered, until it's doubled in size (~90 minutes).
+Add whole wheat flour and salt. Combine well and leave again for 1 hour. 
 
-Divide the dough in half. Pre-shape into balls by pulling edges into the center, turning over so the seam is on the bottom, and rolling under cupped hand. Let the dough rest, covered, for 15 minutes.
+Cover the dough and place in the refrigerator over night.
 
-Place the loaves on a lightly greased or parchment-lined baking sheet. Cover and let rise until very puffy, about 1 hour. Preheat the oven to 425°F.
+Remove the dough from the refrigerator, shape into a tight ball, and place in a floured rising basket. Preheat the oven and baking steel (or dutch oven) to 425°F for 1 hour. 
 
-Score the loaves with a lame. Bake for 25 to 30 minutes, until it's a very deep golden brown. Remove it from the oven, and cool on a rack.
-
-
+Score the loaf with a lame. Bake for 25 minutes covered, increase the oven temperature to 500°F, and bake another 20 minutes uncovered. Remove it from the oven, and cool on a rack.
