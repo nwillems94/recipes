@@ -92,7 +92,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git checkout -B scraped-recipes
-          git add **/*.md
+          git add $(find . -name '*.md')
           # Only commit and push if there are staged changes. 
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -133,7 +133,9 @@ jobs:
   # Build job
   build:
     needs: [scrape, update]
-    if: always()
+    if: >
+       needs.update.result == 'success' &&
+       (needs.scrape.result == 'success' || needs.scrape.result == 'skipped')
     permissions:
       contents: read
       id-token: write
@@ -164,7 +166,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    if: always()
+    if: needs.build.result == 'success'
     permissions:
       contents: read
       pages: write
