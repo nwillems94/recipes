@@ -67,7 +67,7 @@ jobs:
           while IFS= read -r file; do
             [ -z "$file" ] && continue
             # Extract non-YAML body (everything after second --- except empty lines)
-            body=$(awk 'f{print} /^---/{c++} c==2{f=1}' "$file" | sed '/^$/d')
+            body=$(awk '/^---/{n++; next} n!=1' "$file" | sed '/^$/d')
 
             # make sure there nothing besides the link
             if [[ -n "${body//\<*\>/}" ]]; then
