@@ -30,15 +30,9 @@ ingredients:
   - name: "ground cumin"
     quantity: "1"
     unit: "tsp"
-  - name: "Diamond Crystal kosher salt"
-    quantity: ""
-    unit: ""
-  - name: "Freshly cracked black pepper"
-    quantity: ""
-    unit: ""
   - name: "juiced"
     quantity: "1"
-    unit: "lime"
+    unit: "lime,"
   - name: "unsweetened coconut milk"
     quantity: "1"
     unit: "13.5 oz can"
@@ -57,7 +51,7 @@ Pour in the coconut milk and add half as much water. Squeeze in the lime juice, 
 
 Nestle the cabbage into the coconut broth. Put the whole pan on the bottom rack of the oven and braise it for 50-60 minutes, rotating the cabbage wedges every 15 minutes.
 
-Drain and rinse the two cans of chickpeas. Scatter them on a baking sheet and drizzle with olive oil. Season with salt and pepper and mix. Put these on the top rack of the oven to roast for 25-30 minutes or until crisp.
+Drain and rinse the chickpeas. Scatter them on a baking sheet and drizzle with olive oil. Season with salt and pepper and mix. Put these on the top rack of the oven to roast for 25-30 minutes or until crisp.
 
 The cabbage is ready when you can easily pierce a wedge with a paring knife.
 
