@@ -1,10 +1,6 @@
 ---
 title: "Braised tofu & eggplant"
 layout: recipe
----
----
-title: "Braised tofu & eggplant"
-layout: recipe
 servings: "4"
 ingredients:
   - name: "extra-firm tofu"
