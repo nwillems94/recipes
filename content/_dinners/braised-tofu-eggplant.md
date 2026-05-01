@@ -15,7 +15,7 @@ ingredients:
   - name: "sugar, divided"
     quantity: "2"
     unit: "tsps"
-  - name: "Japanese or Italian eggplants cut into ½" thick cubes"
+  - name: "Japanese or Italian eggplants cut into ½'' thick cubes"
     quantity: "1"
     unit: "lb"
   - name: "scallions, white and pale green parts and dark green parts separated, thinly sliced"
