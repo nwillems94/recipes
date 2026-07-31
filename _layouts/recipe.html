@@ -3,40 +3,42 @@ layout: post
 ---
 
 <div style="display: flex; align-items: center; gap: 1rem;">
-  <h1 style="flex: 1; margin: 0;">{{ page.title }}</h1>
-  {% if page.tags %}
+    <h1 style="flex: 1; margin: 0;">{{ page.title }}</h1>
+    {% if page.tags %}
     <span style="font-size: 1.5rem; white-space: nowrap;">{{ page.tags }}</span>
-  {% endif %}
+    {% endif %}
 </div>
 
 <button class="share-button" onclick="shareRecipe()">Share Recipe</button>
 
 <div class="recipe-card">
-  <details open>
-  <summary> <h2 style="display:inline-block; padding-left:0.25rem">Ingredients</h2> </summary>
+    <details open>
+        <summary> <h2 style="display:inline-block; padding-left:0.25rem">Ingredients</h2> </summary>
 
-  <label for="servings">Servings:</label>
-  <input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
+        <label for="servings">Servings:</label>
+        <input type="number" id="servings" value="{{ page.servings }}" min="1" onchange="updateIngredients()">
 
-  <ul id="ingredientList" class="ingredients">
-    {% for ingredient in page.ingredients %}
-      <li data-quantity="{{ ingredient.quantity | join: ';' }}">
-        {% if ingredient.quantity %}
-          {% for qty in ingredient.quantity %}
-            {% if forloop.first %}
-              <span class="qty" data-index="0">{{ qty }}</span> {{ ingredient.unit[forloop.index0] | default: ingredient.unit }}
-            {% else %}
-              (<span class="qty" data-index="{{ forloop.index0 }}">{{ qty }}</span> {{ ingredient.unit[forloop.index0] | default: ingredient.unit }})
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        {{ ingredient.name }}
-      </li>
-    {% endfor %}
-  </ul>
-  </details>
+        <ul id="ingredientList" class="ingredients">
+            {% for ingredient in page.ingredients %}
+            <li data-quantity="{{ ingredient.quantity | join: ';' }}">
+                {% if ingredient.quantity %}
+                {% for qty in ingredient.quantity %}
+                {% if forloop.first %}
+                <span class="qty" data-index="0">{{ qty }}</span> {{ ingredient.unit[forloop.index0] | default: ingredient.unit }}
+                {% else %}
+                (<span class="qty" data-index="{{ forloop.index0 }}">{{ qty }}</span> {{ ingredient.unit[forloop.index0] | default: ingredient.unit }})
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+                {{ ingredient.name }}
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
 
-  <p>{{ content }}</p>
+    <div class="instructions">
+        {{ content }}
+    </div>
 </div>
 
 
