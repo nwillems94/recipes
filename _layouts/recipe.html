@@ -96,7 +96,7 @@ async function sendToTrmnl() {
     try {
         const ingredients = Array.from(document.querySelectorAll('#ingredientList li'))
             .map(li => li.innerText).join('\n');
-        // Extract instructions (first .recipe-card p)
+
         const instructions = document.querySelector('.recipe-card .instructions')?.innerText;
         const payload = {
             merge_variables: {
@@ -112,10 +112,9 @@ async function sendToTrmnl() {
             body: JSON.stringify(payload)
         });
         alert("Recipe sent to TRMNL!");
-    }
-    catch (error) {
+    } catch (error) {
         console.error("Error sending to TRMNL:", error);
         alert(`Failed to send recipe: ${error.message}`);
     }
-  }
+}
 </script>
