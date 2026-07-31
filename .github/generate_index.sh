@@ -9,7 +9,7 @@ for file in $(ls content/_*/*.md | sort -t/ -k3); do
   name="$(basename "$file" .md)"
   letter="${name:0:1}"
   letter_map["$letter"]=1
-  
+
   # Extract tags from YAML front matter
   tags_line="$(sed -n 's/^tags: \(.*\)$/\1/p' $file)"
   if [ -n "$tags_line" ]; then
@@ -59,7 +59,7 @@ for file in $(ls content/_*/*.md | sort -t/ -k3); do
   if [ -z "$display_name" ]; then
     display_name="$(echo "$name" | sed 's/-/ /g; s/.*/\L&/; s/[a-z]*/\u&/g')"
   fi
-  
+
   # Get tags for this recipe
   recipe_tag="${recipe_tags[$name]:-}"
   if [ -n "$recipe_tag" ]; then
@@ -74,7 +74,7 @@ echo "</ul>" >> "$INDEX_FILE"
 cat <<'EOF' >> "$INDEX_FILE"
 
 <nav style="margin-bottom:1em;text-align:right;">
-  <a href="settings.html" title="TRMNL X Config"><img src="https://trmnl.com/assets/trmnl--logo--mobile-e2478dfc.svg" alt="TRMNL" style="height:1em;vertical-align:middle;"></a>
+  <a href="settings.html" title="TRMNL X Config"><img src="https://trmnl.com/assets/trmnl--logo--mobile-e2478dfc.svg" alt="TRMNL" style="height:1.5em;vertical-align:middle;"></a>
 </nav>
 
 <script>

@@ -7,8 +7,9 @@ search_exclude: true
 <h1><img src="https://trmnl.com/assets/trmnl--logo--mobile-e2478dfc.svg" alt="TRMNL" /> TRMNL X Config </h1>
 <div style="margin:1em 0;padding:1em;border:1px solid #ccc;background:#f9f9f9;max-width:400px;">
     <label for="trmnl-uuid">TRMNL Plugin UUID:</label>
-    <input id="trmnl-uuid" type="text" />
-    <button onclick="saveTrmnlUUID()">Save</button>
+    <input id="trmnl-uuid" type="text" /> <br />
+    <button onclick="window.location.href='index.html'">Back</button>
+    <button onclick="saveTrmnlUUID()" style="margin-left:1em;">Save</button>
     <span id="trmnl-status" style="margin-left:1em;color:green;"></span>
 </div>
 
@@ -18,6 +19,7 @@ function saveTrmnlUUID() {
     if (uuid) {
         localStorage.setItem('trmnl_uuid', uuid);
         document.getElementById('trmnl-status').textContent = 'Saved!';
+        window.location.href = 'index.html';
     }
 }
 
