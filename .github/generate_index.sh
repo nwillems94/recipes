@@ -72,6 +72,11 @@ echo "</ul>" >> "$INDEX_FILE"
 
 # JavaScript
 cat <<'EOF' >> "$INDEX_FILE"
+
+<nav style="margin-bottom:1em;text-align:right;">
+  <a href="settings.html" title="TRMNL X Config"><img src="https://trmnl.com/assets/trmnl--logo--mobile-e2478dfc.svg" alt="TRMNL" style="height:1em;vertical-align:middle;"></a>
+</nav>
+
 <script>
   let activeLetter = null;
 

@@ -10,6 +10,9 @@ layout: post
 </div>
 
 <button class="share-button" onclick="shareRecipe()">Share Recipe</button>
+<button class="TRMNL-button" id="TRMNL" onclick="sendToTrmnl()" style="background:none;border:none;padding:0;display:none">
+    <img src="https://trmnl.com/assets/trmnl--logo--mobile-e2478dfc.svg" alt="TRMNL" style="height:1.8em;vertical-align:middle;">
+</button>
 
 <div class="recipe-card">
     <details open>
@@ -43,42 +46,76 @@ layout: post
 
 
 <script>
-  const defaultServings = parseFloat("{{ page.servings }}");
+const uuid = localStorage.getItem('trmnl_uuid');
 
-  function formatQuantity(qty) {
+// Check if the variable is truthy/set
+if (uuid) {
+    document.getElementById('TRMNL').style.display = 'inline-block';
+}
+
+const defaultServings = parseFloat("{{ page.servings }}");
+
+function formatQuantity(qty) {
     const rounded = Math.round(qty * 100) / 100;
     return Number.isInteger(rounded)
-      ? rounded.toString()
-      : rounded.toFixed(2).replace(/\.?0+$/, '');
-  }
+    ? rounded.toString()
+    : rounded.toFixed(2).replace(/\.?0+$/, '');
+}
 
-  function updateIngredients() {
+function updateIngredients() {
     const newServings = parseFloat(document.getElementById('servings').value);
     document.querySelectorAll('#ingredientList li').forEach(item => {
-      let baseQtys = [];
-      const qtyAttr = item.getAttribute('data-quantity');
-      if (qtyAttr && qtyAttr.trim()) {
-        baseQtys = qtyAttr.split(';').map(q => parseFloat(q.trim())).filter(q => !isNaN(q));
-      }
-
-      item.querySelectorAll('.qty').forEach((span, index) => {
-        const baseQty = baseQtys[index];
-        if (!isNaN(baseQty)) {
-          const newQty = (baseQty / defaultServings) * newServings;
-          span.textContent = formatQuantity(newQty);
+        let baseQtys = [];
+        const qtyAttr = item.getAttribute('data-quantity');
+        if (qtyAttr && qtyAttr.trim()) {
+            baseQtys = qtyAttr.split(';').map(q => parseFloat(q.trim())).filter(q => !isNaN(q));
         }
-      });
-    });
-  }
 
-  function shareRecipe() {
+        item.querySelectorAll('.qty').forEach((span, index) => {
+            const baseQty = baseQtys[index];
+            if (!isNaN(baseQty)) {
+                const newQty = (baseQty / defaultServings) * newServings;
+                span.textContent = formatQuantity(newQty);
+            }
+        });
+    });
+}
+
+function shareRecipe() {
     if (navigator.share) {
-      navigator.share({
-        title: document.title,
-        url: window.location.href
-      }).catch(console.error);
+        navigator.share({
+            title: document.title,
+            url: window.location.href
+        }).catch(console.error);
     } else {
-      alert('Sharing not supported on this browser.');
+        alert('Sharing not supported on this browser.');
+    }
+}
+
+async function sendToTrmnl() {
+    try {
+        const ingredients = Array.from(document.querySelectorAll('#ingredientList li'))
+            .map(li => li.innerText).join('\n');
+        // Extract instructions (first .recipe-card p)
+        const instructions = document.querySelector('.recipe-card .instructions')?.innerText;
+        const payload = {
+            merge_variables: {
+                title: document.title,
+                ingredients,
+                instructions,
+                updated_at: Math.floor(Date.now() / 1000)
+            }
+        };
+        await fetch(`https://trmnl.com/api/custom_plugins/${uuid}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+        alert("Recipe sent to TRMNL!");
+    }
+    catch (error) {
+        console.error("Error sending to TRMNL:", error);
+        alert(`Failed to send recipe: ${error.message}`);
     }
   }
 </script>

@@ -1,0 +1,27 @@
+---
+title: TRMNL X Settings
+nav_exclude: true
+search_exclude: true
+---
+
+<h1><img src="https://trmnl.com/assets/trmnl--logo--mobile-e2478dfc.svg" alt="TRMNL" /> TRMNL X Config </h1>
+<div style="margin:1em 0;padding:1em;border:1px solid #ccc;background:#f9f9f9;max-width:400px;">
+    <label for="trmnl-uuid">TRMNL Plugin UUID:</label>
+    <input id="trmnl-uuid" type="text" />
+    <button onclick="saveTrmnlUUID()">Save</button>
+    <span id="trmnl-status" style="margin-left:1em;color:green;"></span>
+</div>
+
+<script>
+function saveTrmnlUUID() {
+    const uuid = document.getElementById('trmnl-uuid').value.trim();
+    if (uuid) {
+        localStorage.setItem('trmnl_uuid', uuid);
+        document.getElementById('trmnl-status').textContent = 'Saved!';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('trmnl-uuid').value = localStorage.getItem('trmnl_uuid') || '';
+});
+</script>
