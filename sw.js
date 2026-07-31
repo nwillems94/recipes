@@ -5,7 +5,7 @@ var GHPATH = '/recipes';
 var APP_PREFIX = 'ghpr_';
  
 // cache version, needs to be updated any time any of the local files change
-var VERSION = 'version_00090';
+var VERSION = 'version_00091';
  
 // The files to make available for offline use
 var URLS = [    
@@ -29,6 +29,7 @@ var URLS = [
   "/recipes/breads/sheetpan-pizza.html",
   "/recipes/breads/sourdough-bagels.html",
   "/recipes/breads/sourdough-focaccia.html",
+  "/recipes/breakfast/alton_brown_pancakes.html",
   "/recipes/breakfast/banoffee-breakfast.html",
   "/recipes/breakfast/cocoa-zucchini-banana-muffins.html",
   "/recipes/breakfast/pancakes.html",
