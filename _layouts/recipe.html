@@ -93,13 +93,17 @@ function shareRecipe() {
 
 async function sendToTrmnl() {
     try {
+        const servings = document.querySelector('input#servings').value;
+        
         const ingredients = Array.from(document.querySelectorAll('#ingredientList li'))
             .map(li => li.innerText).join('\n');
 
-        const instructions = document.querySelector('.recipe-card .instructions')?.innerText;
+        const instructions = document.querySelector('.recipe-card .instructions').innerText;
+        
         const payload = {
             merge_variables: {
                 title: document.title,
+                servings,
                 ingredients,
                 instructions,
                 updated_at: Math.floor(Date.now() / 1000)
