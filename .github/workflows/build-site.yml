@@ -170,12 +170,12 @@ jobs:
 
   # Deployment job
   deploy:
+    if: ${{ !failure() }}
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
-    if: needs.build.result == 'success'
     permissions:
       contents: read
       pages: write
