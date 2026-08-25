@@ -1,0 +1,14 @@
+name: Wake TRMNL
+on:
+  schedule:
+    - cron: '0 0/2 * * *'
+
+jobs:
+  post-time:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        curl "https://trmnl.com/api/custom_plugins/${{ secrets.TRMNL_UUID }}" \
+        -H "Content-Type: application/json" \
+        -d '{"merge_variables": {"current_time": '$(date +%s)'}, "merge_strategy": "deep_merge"}' \
+        -X POST
