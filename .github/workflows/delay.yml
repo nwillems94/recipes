@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Wait 
         env:
-          SLEEP_SECONDS: ${{ github.event.client_payload.sleep_secs }}
+          SLEEP_SECONDS: ${{ github.event.client_payload.sleep_seconds }}
         run: sleep "$SLEEP_SECONDS"
 
       - name: Update TRMNL
