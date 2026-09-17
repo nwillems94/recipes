@@ -1,0 +1,20 @@
+name: TRMNL Delayed Workflow
+
+on:
+  repository_dispatch:
+    types: [trmnl_delay]
+
+jobs:
+  delayed-execution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait 
+        env:
+          SLEEP_SECONDS: ${{ github.event.client_payload.sleep_secs }}
+        run: sleep "$SLEEP_SECONDS"
+
+      - name: Update TRMNL
+        run: |
+        curl -X POST "https://trmnl.com/api/custom_plugins/${{ secrets.TRMNL_UUID }}" \
+        -H "Content-Type: application/json" \
+        -d '{"merge_variables": {"skip_display": true}, "merge_strategy": "deep_merge"}'
