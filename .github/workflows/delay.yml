@@ -4,6 +4,10 @@ on:
   repository_dispatch:
     types: [trmnl_delay]
 
+concurrency:
+  group: trmnl-delay
+  cancel-in-progress: true
+
 jobs:
   delayed-execution:
     runs-on: ubuntu-latest
