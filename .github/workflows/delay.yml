@@ -15,6 +15,6 @@ jobs:
 
       - name: Update TRMNL
         run: |
-        curl -X POST "https://trmnl.com/api/custom_plugins/${{ secrets.TRMNL_UUID }}" \
-        -H "Content-Type: application/json" \
-        -d '{"merge_variables": {"skip_display": true}, "merge_strategy": "deep_merge"}'
+          curl -X POST "https://trmnl.com/api/custom_plugins/${{ secrets.TRMNL_UUID }}" \
+          -H "Content-Type: application/json" \
+          -d '{"merge_variables": {"skip_display": true}, "merge_strategy": "deep_merge"}'
