@@ -17,8 +17,10 @@ ingredients:
     unit: "g"
   - name: "salt"
     quantity: "10"
-    unit: "g
-  - name: "40 g molasses for boiling"
+    unit: "g"
+  - name: "molasses (for boiling)"
+    quantity: "40"
+    unit: "g"
 ---
 
 Add sourdough starter (discard), water, flour, and sugar to a bowl and bring together to form a shaggy dough. Let rest for around 15 minutes.
