@@ -1,7 +1,7 @@
 ---
-title: "Sourdough Bagels"
+title: "Sourdough bagels"
 layout: recipe
-servings: "12"
+servings: "9"
 ingredients:
   - name: "sourdough starter"
     quantity: "100"
@@ -9,8 +9,8 @@ ingredients:
   - name: "warm water"
     quantity: "250"
     unit: "g"
-  - name: "bread flour"
-    quantity: "500"
+  - name: "AP flour"
+    quantity: "400"
     unit: "g"
   - name: "sugar"
     quantity: "30"
@@ -23,13 +23,13 @@ ingredients:
     unit: "g"
 ---
 
-Add sourdough starter (discard), water, flour, and sugar to a bowl and bring together to form a shaggy dough. Let rest for around 15 minutes.
+Dissolve sugar and starter in water, add flour and  bring together to form a shaggy dough. Let rest for around 15 minutes.
 
-Knead the dough for around 10 minutes until it is smooth and supple. This is a stiff dough so it won't be super elastic, however it should be smooth and not sticky. Let rise around 3-4 hours.
+Knead the dough for around 5 minutes until it is smooth and supple. Let rise around 3-4 hours.
 
-Add salt and knead the dough again for around 5 minutes until the salt is fully incorporated. Refrigerate overnight (6-10 hours).
+Add salt and knead the dough again for around 5 minutes until the salt is fully incorporated. This is a stiff dough so it won't be super elastic, however it should be smooth and not sticky. Refrigerate overnight (6-10 hours).
 
-Divide the dough into equal pieces weighing 80g each. Shape each piece of dough into a small ball. Take each ball and poke a hole in the middle. Gently stretch the hole out and then place each bagel on a sheet of baking paper, cover with a dish cloth, and let rise for 1-2 hours.
+Divide the dough into equal pieces weighing ~85g each. Shape each piece of dough into a small ball. Take each ball and poke a hole in the middle. Gently stretch the hole out and then place each bagel on a well-floured sheet of baking paper, cover with a dish cloth, and let rise for 1-2 hours.
 
 Preheat oven to 400°F and bring a large pot with water and molasses to a boil.
 
